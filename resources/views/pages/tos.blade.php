@@ -168,6 +168,6 @@
 	<meta name="description" content="While Tagvote enables users to apply leeway to what content is acceptable, here are some guidelines for content that is not:"/>
 	<meta property="og:description" content="While Tagvote enables users to apply leeway to what content is acceptable, here are some guidelines for content that is not:" />
 	<meta name="twitter:description" content="While Tagvote enables users to apply leeway to what content is acceptable, here are some guidelines for content that is not:" />
-	<meta property="og:image" content="{{ config('app.url') }}/imgs/tagvote-circle.png">
-	<meta name="twitter:image" content="{{ config('app.url') }}/imgs/tagvote-circle.png" />
+	<meta property="og:image" content="{{ config('app.url') }}/imgs/tagvote.svg">
+	<meta name="twitter:image" content="{{ config('app.url') }}/imgs/tagvote.svg" />
 @endsection

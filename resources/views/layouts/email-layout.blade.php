@@ -151,7 +151,7 @@
 	<div class="container">
 		<div class="align-center">
 			<a href="https://tagvote.com">
-				<img src="https://tagvote.com/imgs/tagvote-circle.png" alt="Tagvote" class="logo" width="150">
+				<img src="https://tagvote.com/imgs/tagvote.svg" alt="Tagvote" class="logo" width="150">
 			</a>
 		</div>
 

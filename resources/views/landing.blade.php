@@ -3,7 +3,7 @@
 @section('title')
 	<title>Tagvote</title>
 	<meta property="og:title" content="Tagvote | Where your vote matters" />
-	<meta property="og:image" content="/imgs/tagvote-circle.png">
+	<meta property="og:image" content="/imgs/tagvote.svg">
 	<meta name="description" content="Social Bookmarking For The 21st Century. Best Reddit alternative on the Internet."/>
 @stop
 

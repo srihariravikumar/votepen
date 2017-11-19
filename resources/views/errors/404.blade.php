@@ -13,8 +13,8 @@
 	<meta name="description" content="Sorry, that page doesn’t exist!"/>
 	<meta property="og:description" content="Sorry, that page doesn’t exist!" />
 	<meta name="twitter:description" content="Sorry, that page doesn’t exist!" />
-	<meta property="og:image" content="/imgs/tagvote-circle.png" />
-	<meta name="twitter:image" content="/imgs/tagvote-circle.png" />
+	<meta property="og:image" content="/imgs/tagvote.svg" />
+	<meta name="twitter:image" content="/imgs/tagvote.svg" />
 @stop
 
 

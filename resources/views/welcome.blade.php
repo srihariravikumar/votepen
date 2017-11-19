@@ -20,8 +20,8 @@
 	<meta name="description" content="A Modern, real-time, open-source, beautiful, deadly simple and warm community."/>
 	<meta property="og:description" content="A Modern, real-time, open-source, beautiful, deadly simple and warm community." />
 	<meta name="twitter:description" content="A Modern, real-time, open-source, beautiful, deadly simple and warm community." />
-	<meta property="og:image" content="{{ config('app.url') }}/imgs/tagvote-circle.png">
-	<meta name="twitter:image" content="{{ config('app.url') }}/imgs/tagvote-circle.png" />
+	<meta property="og:image" content="{{ config('app.url') }}/imgs/tagvote.svg">
+	<meta name="twitter:image" content="{{ config('app.url') }}/imgs/tagvote.svg" />
 
 	<script type="application/ld+json">
 	 {
@@ -33,7 +33,7 @@
 			 "@type": "Organization",
 		  "logo": {
 			  "@type": "ImageObject",
-				 "url": "https://tagvote.com/imgs/tagvote-circle.png",
+				 "url": "https://tagvote.com/imgs/tagvote.svg",
 				 "name": "Tagvote",
 				 "height": "457",
 				 "width": "457"

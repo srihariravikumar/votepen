@@ -15,8 +15,8 @@
     <meta name="description" content="Get instant answers for the most common questions and learn how to take the most out of Tagvote."/>
     <meta property="og:description" content="Get instant answers for the most common questions and learn how to take the most out of Tagvote." />
     <meta name="twitter:description" content="Get instant answers for the most common questions and learn how to take the most out of Tagvote." />
-    <meta property="og:image" content="/imgs/tagvote-circle.png">
-    <meta name="twitter:image" content="/imgs/tagvote-circle.png" />
+    <meta property="og:image" content="/imgs/tagvote.svg">
+    <meta name="twitter:image" content="/imgs/tagvote.svg" />
 @stop
 
 

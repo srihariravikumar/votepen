@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => 'ftp',
+    'default' => env('DISK_DRIVER', 'ftp'),
 
     /*
     |--------------------------------------------------------------------------
@@ -54,7 +54,6 @@ return [
             'root'         => env('FTP_ROOT', '/'),
             'passive'      => true,
             'ssl'          => true,
-            'cdn_url'      => env('CDN_URL', 'http://127.0.0.1:8000'),
             // 'timeout'  => 30,
         ],
 
@@ -78,5 +77,7 @@ return [
         ],
 
     ],
+
+    'cdn_url'      => env('CDN_URL', 'http://localhost:8000/'),
 
 ];

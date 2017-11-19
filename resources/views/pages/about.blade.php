@@ -15,8 +15,8 @@
 	<meta name="description" content="We are a small team of developers risen from the world of open-source. We believe in an open and modern Internet. Tagvote's mission is to give people the power to share their content with not just their friends but the world and interact in real-time."/>
 	<meta property="og:description" content="We are a small team of developers risen from the world of open-source. We believe in an open and modern Internet. Tagvote's mission is to give people the power to share their content with not just their friends but the world and interact in real-time." />
 	<meta name="twitter:description" content="We are a small team of developers risen from the world of open-source. We believe in an open and modern Internet. Tagvote's mission is to give people the power to share their content with not just their friends but the world and interact in real-time." />
-	<meta property="og:image" content="{{ config('app.url') }}/imgs/tagvote-circle.png">
-	<meta name="twitter:image" content="{{ config('app.url') }}/imgs/tagvote-circle.png" />
+	<meta property="og:image" content="{{ config('app.url') }}/imgs/tagvote.svg">
+	<meta name="twitter:image" content="{{ config('app.url') }}/imgs/tagvote.svg" />
 
 	<script type="application/ld+json">
 	 {
@@ -28,7 +28,7 @@
 			 "@type": "Organization",
 		  "logo": {
 			  "@type": "ImageObject",
-				 "url": "https://tagvote.com/imgs/tagvote-circle.png",
+				 "url": "https://tagvote.com/imgs/tagvote.svg",
 				 "name": "Tagvote",
 				 "height": "457",
 				 "width": "457"
@@ -51,7 +51,7 @@
 @section('content')
 	<div class="about-wrapper mobile-padding">
 		<div class="align-center">
-			<img src="{{ config('app.url') }}/imgs/tagvote-circle.png" alt="Tagvote" class="about-logo margin-bottom-1">
+			<img src="{{ config('app.url') }}/imgs/tagvote.svg" alt="Tagvote" class="about-logo margin-bottom-1">
 
 			<h1 class="title">
 				Social Bookmarking For The 21st Century

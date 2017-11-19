@@ -63,7 +63,7 @@
 <div class="container">
     <div class="content">
         <a href="/">
-            <img src="/imgs/tagvote-circle.png" alt="tagvote" class="logo">
+            <img src="/imgs/tagvote.svg" alt="tagvote" class="logo">
         </a>
 
         <div class="title">

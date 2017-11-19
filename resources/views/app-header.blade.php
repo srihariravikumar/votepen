@@ -4,7 +4,7 @@
 	</div>
 
     <router-link :to="{ path: '/' }" class="desktop-only">
-        <img src="/imgs/tagvote-beta.svg" alt="Tagvote" @click="homeRoute"
+        <img src="/imgs/tagvote.svg" alt="Tagvote" @click="homeRoute"
         	class="logo-tagvote" data-toggle="tooltip" data-placement="bottom" title="Home">
     </router-link>
 

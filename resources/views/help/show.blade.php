@@ -15,8 +15,8 @@
     <meta name="description" content="{{ $help->body }}"/>
     <meta property="og:description" content="{{ $help->body }}" />
     <meta name="twitter:description" content="{{ $help->body }}" />
-    <meta property="og:image" content="/imgs/tagvote-circle.png">
-    <meta name="twitter:image" content="/imgs/tagvote-circle.png" />
+    <meta property="og:image" content="/imgs/tagvote.svg">
+    <meta name="twitter:image" content="/imgs/tagvote.svg" />
 @stop
 
 

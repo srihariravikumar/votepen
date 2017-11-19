@@ -16,11 +16,11 @@
 		<meta name="description" content="{{ $submission->data['text'] }}"/>
 		<meta property="og:description" content="{{ $submission->data['text'] }}" />
 		<meta name="twitter:description" content="{{ $submission->data['text'] }}" />
-		<meta property="og:image" content="/imgs/tagvote-circle.png">
-		<meta name="twitter:image" content="/imgs/tagvote-circle.png" />
+		<meta property="og:image" content="/imgs/tagvote.svg">
+		<meta name="twitter:image" content="/imgs/tagvote.svg" />
 	@else
-		<meta property="og:image" content="{{ $submission->data['thumbnail'] ?? $submission->data['path'] ?? '/imgs/tagvote-circle.png' }}" />
-		<meta name="twitter:image" content="{{ $submission->data['thumbnail'] ?? $submission->data['path'] ?? '/imgs/tagvote-circle.png' }}" />
+		<meta property="og:image" content="{{ $submission->data['thumbnail'] ?? $submission->data['path'] ?? '/imgs/tagvote.svg' }}" />
+		<meta name="twitter:image" content="{{ $submission->data['thumbnail'] ?? $submission->data['path'] ?? '/imgs/tagvote.svg' }}" />
 	@endif
 @stop
 
