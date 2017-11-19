@@ -640,4 +640,4 @@ const app = new Vue({
 			}
         },
     },
-}).$mount('#voten-app');
+}).$mount('#tagvote-app');
