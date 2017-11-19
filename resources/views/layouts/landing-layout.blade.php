@@ -27,7 +27,7 @@
         ]); ?>
     </script>
 
-    <link rel="shortcut icon" href="/imgs/favicon.ico">
+    <link rel="shortcut icon" href="/imgs/favicon.png">
 </head>
 <body>
 @include('google-analytics')
