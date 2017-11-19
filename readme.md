@@ -1,5 +1,6 @@
 # Tagvote
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/854350c061bc49d9b6f0bb90f99018f4)](https://www.codacy.com/app/Tagvote/tagvote?utm_source=github.com&utm_medium=referral&utm_content=tagvote/tagvote&utm_campaign=badger)
 [![StyleCI](https://styleci.io/repos/111306356/shield?branch=master)](https://styleci.io/repos/111306356)
 
 Tagvote is a real-time social bookmarking for the 21st century. It's real-time, beautiful, customizable yet simple. To get a quick taste of what Tagvote is written with please check our [credits page](https://tagvote.com/credits).
