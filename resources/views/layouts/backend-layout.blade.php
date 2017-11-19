@@ -33,7 +33,7 @@
         ])
     </script>
 
-    <link rel="shortcut icon" href="/imgs/favicon.png">
+    <link rel="shortcut icon" href="/imgs/favicon.ico">
 </head>
 
 <body>
