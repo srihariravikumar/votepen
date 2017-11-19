@@ -78,7 +78,7 @@
 	    },
 
         created() {
-            this.setPageTitle('Voten - Social Bookmarking For The 21st Century', true);
+            this.setPageTitle('Tagvote - Social Bookmarking', true);
             this.askNotificationPermission();
         },
 
