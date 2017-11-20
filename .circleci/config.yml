@@ -43,12 +43,6 @@ jobs:
           key: yarn-{{ checksum "composer.json" }}
 
       - run: npm run production
-      - run: php artisan migrate --database=mysql_test
-      # run tests!
-      - run:
-          command: |
-            mkdir -p /phpunit &&
-            php -dzend_extension=xdebug.so vendor/bin/phpunit --coverage-clover=phpunit/coverage-clover.xml --coverage-html=phpunit/coverage
       - store_test_results:
           path: /phpunit
       - store_artifacts:
