@@ -7,7 +7,7 @@ Tagvote is a real-time social bookmarking for the 21st century. It's real-time, 
 
 ## Contributing
 
-Thank you for considering contributing to the Tagvote. To encourage active collaboration, Tagvote strongly encourages pull requests, not just bug reports. [Tagvote's Slack channel](https://join.slack.com/t/voten/shared_invite/MjMzMTQxMzM4MDM2LTE1MDM5OTQ0NjEtMWRiMDhiZTY2Yg) is created for developers to discuss Tagvote development concerns. If you have an idea (and not the code for it) you may contact us either with the support@tagvote.com email address or submit it to [#tagvotedev](https://tagvote.com/c/tagvotedev) channel.
+Thank you for considering contributing to the Tagvote. To encourage active collaboration, Tagvote strongly encourages pull requests, not just bug reports. [Tagvote's Slack channel](https://join.slack.com/t/tagvote/shared_invite/enQtMjc0OTE3NDI2OTE2LTcyMDk2Nzc0OTI5MjIzNjBjNWRlMDlmMmY3ZWIyMzkyNmE1NmI3MDdiN2Q4OGQ1N2FkYWQ4ZjVkYTA1ZjY3YTI) is created for developers to discuss Tagvote development concerns. If you have an idea (and not the code for it) you may contact us either with the support@tagvote.com email address or submit it to [#tagvotedev](https://tagvote.com/c/TagvoteDev) channel.
 
 ## Coding Style
 
@@ -17,18 +17,16 @@ Tagvote follows the PSR-2 coding standard and the PSR-4 autoloading standard. Ta
 
 Tagvote is a Laravel application that runs on the following software:
 
-- Ubuntu 16.04.2 LTS
-- Nginx 1.10+ or Apache
-- MySQL 5.7+ (to use mariaDB, you must modify `json` type migration columns to `blob` by running `sed -i 's/json(/binary(/g' *` inside the database/migrations/ directory in Linux)
-- PHP 7.1+
-- Redis 3.0+
-- Git 2.8.4+
-- Node v9.2.0
-- NPM 5.5.1
+- [Ubuntu](https://ubuntu.com)
+- [Nginx](https://nginx.org/en) or [Apache](https://httpd.apache.org)
+- [MySQL 5.7+](https://www.mysql.com)
+- [PHP 7.1+](https://php.net)
+- [Redis 3.0+](https://redis.io)
+- [Git 2.8.4+](https://git-scm.com)
+- [Node v9.2.0](https://nodejs.org)
+- [NPM 5.5.1](https://npmjs.com)
 - [Pusher](https://pusher.com/) (we use [laravel-echo-server](https://github.com/tlaverdure/laravel-echo-server) on production server)
-- [Algolia Search](https://www.algolia.com/referrals/fb684d54/join/)
-
-To install all the required stack on a server, we recommend an auto-installation service such as [CodePier](https://codepier.io/?ref=tagvote).
+- [Algolia Search](https://www.algolia.com)
 
 ## Installation Steps
 
@@ -58,7 +56,7 @@ To create an admin user, run the below command from the root of the project
 php artisan db:seed --class=AdminUserSeeder
 ```
 
-The login details for the admin user is `admin` and `password`.
+The login details for the admin user is `admin` and `admin`.
 
 After running the seeder, be sure to clear your redis cache, you should now be able to navigate to `/backend`
 

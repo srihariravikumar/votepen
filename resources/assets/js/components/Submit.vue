@@ -195,7 +195,7 @@
         methods: {
             /**
              * Used for setting the values using API. This will get extended in the future to support
-             * voten sharing buttons! But for now we are just going to use it for setting the default
+             * Tagvote sharing buttons! But for now we are just going to use it for setting the default
              * channel so when clicked on submit in the channels, users won't have to set channel.
              *
              * @return

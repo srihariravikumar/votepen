@@ -23,8 +23,8 @@
 
                     <div class="field">
                         <div class="ui radio checkbox">
-                            <input type="radio" value="It doesn't follow Voten's general rules" tabindex="0" class="hidden" v-model="subject">
-                            <label>It doesn't follow Voten's general rules</label>
+                            <input type="radio" value="It doesn't follow Tagvote's general rules" tabindex="0" class="hidden" v-model="subject">
+                            <label>It doesn't follow Tagvote's general rules</label>
                         </div>
                     </div>
 
@@ -69,7 +69,7 @@
                 ></i>
 
                 <p>
-                    Thank you for helping us fight spam on Voten.
+                    Thank you for helping us fight spam on Tagvote.
                 </p>
             </div>
         </div>

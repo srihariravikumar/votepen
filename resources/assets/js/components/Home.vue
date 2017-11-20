@@ -136,7 +136,7 @@
         	},
 
         	/**
-        	 * In case the user has just joined to the Voten community let's ask them for the awesome Desktop notifications permission.
+        	 * In case the user has just joined to the Tagvote community let's ask them for the awesome Desktop notifications permission.
         	 *
         	 * @return void
         	 */

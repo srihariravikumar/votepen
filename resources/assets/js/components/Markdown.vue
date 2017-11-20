@@ -10,9 +10,9 @@
             compiled(){
                 let text = this.text;
 
-                text = text.replace(/(?:^| )(@[A-Za-z0-9\._]+)/gm, " [$1](https://voten.co/$1)");
-                text = text.replace(/(?:^| )#([A-Za-z0-9_]+)/gm, " [#$1](https://voten.co/c/$1)");
-                text = text.replace(/(?:^| )\/c\/([A-Za-z0-9_]+)/gm, " [#$1](https://voten.co/c/$1)");
+                text = text.replace(/(?:^| )(@[A-Za-z0-9\._]+)/gm, " [$1](https://tagvote.com/$1)");
+                text = text.replace(/(?:^| )#([A-Za-z0-9_]+)/gm, " [#$1](https://tagvote.com/c/$1)");
+                text = text.replace(/(?:^| )\/c\/([A-Za-z0-9_]+)/gm, " [#$1](https://tagvote.com/c/$1)");
                 text = text.replace(/(?:^| )(https?:\/\/[^ \n]*[^. \n])/gm, " [$1]($1)");
                 text = text.replace(/\\([*`_>()\[\]-])/gm, function (i) {
                     return '~' + i.charCodeAt(1)
@@ -20,7 +20,7 @@
                 text = text.split("&").join("&amp;").split("<").join("&lt;").split("'").join("&apos;").split('"').join("&quot;");
                 text = text.replace(/\*\*([^*]*)\*\*/gm, "<strong>$1</strong>");
 
-                text = text.replace(/\[([^\[\n]*)\]\(((https?):\/\/voten.co\/[^\)]*)\)/igm, "<a href='$2'>$1</a>");
+                text = text.replace(/\[([^\[\n]*)\]\(((https?):\/\/tagvote.com\/[^\)]*)\)/igm, "<a href='$2'>$1</a>");
                 text = text.replace(/\[([^\[\n]*)\]\(((https?):\/\/[^\)]*)\)/igm, "<a href='$2' target='_blank' rel='nofollow'>$1</a>");
                 text = text.replace(/^>([^\n]*)/gm, "<p>$1</p>");
                 for (var i = 1; i < 4; i++) text = text.replace(new RegExp("\<p\>{" + i + "}([^\n]*(\n\<p\>{" + i + "}[^\n]*)*)", "gm"), "<blockquote><p>$1</blockquote>");

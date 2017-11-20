@@ -151,7 +151,7 @@
 			                    Source Code
 			                </a>
 
-							<a href="https://join.slack.com/t/voten/shared_invite/MjMzMTQxMzM4MDM2LTE1MDM5OTQ0NjEtMWRiMDhiZTY2Yg" class="item" target="_blank">
+							<a href="https://join.slack.com/t/tagvote/shared_invite/enQtMjc0OTE3NDI2OTE2LTcyMDk2Nzc0OTI5MjIzNjBjNWRlMDlmMmY3ZWIyMzkyNmE1NmI3MDdiN2Q4OGQ1N2FkYWQ4ZjVkYTA1ZjY3YTI" class="item" target="_blank">
 			                    Slack
 			                </a>
 						</div>
