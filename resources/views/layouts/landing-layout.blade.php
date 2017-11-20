@@ -40,7 +40,6 @@
 					<img src="/imgs/tagvote-logo.png" alt="Tagvote.com">
 					Tagvote
 				</a>
-				<small>BETA</small>
 			</div>
 
 			<div class="right-menu">
