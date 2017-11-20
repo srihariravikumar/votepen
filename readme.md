@@ -17,14 +17,14 @@ Tagvote follows the PSR-2 coding standard and the PSR-4 autoloading standard. Ta
 
 Tagvote is a Laravel application that runs on the following software:
 
-- Ubuntu 16.04.2 LTS
-- Nginx 1.10+ or Apache
-- MySQL 5.7+ (to use mariaDB, you must modify `json` type migration columns to `blob` by running `sed -i 's/json(/binary(/g' *` inside the database/migrations/ directory in Linux)
-- PHP 7.1+
-- Redis 3.0+
-- Git 2.8.4+
-- Node v9.2.0
-- NPM 5.5.1
+- [Ubuntu](https://ubuntu.com)
+- [Nginx](https://nginx.org/en) or Apache](https://httpd.apache.org)
+- [MySQL 5.7+](https://www.mysql.com)
+- [PHP 7.1+](https://php.net)
+- [Redis 3.0+](https://redis.io)
+- [Git 2.8.4+](https://git-scm.com)
+- [Node v9.2.0](https://nodejs.org)
+- [NPM 5.5.1](https://npmjs.com)
 - [Pusher](https://pusher.com/) (we use [laravel-echo-server](https://github.com/tlaverdure/laravel-echo-server) on production server)
 - [Algolia Search](https://www.algolia.com/referrals/fb684d54/join/)
 
