@@ -7,7 +7,7 @@ Tagvote is a real-time social bookmarking for the 21st century. It's real-time, 
 
 ## Contributing
 
-Thank you for considering contributing to the Tagvote. To encourage active collaboration, Tagvote strongly encourages pull requests, not just bug reports. [Tagvote's Slack channel](https://join.slack.com/t/voten/shared_invite/MjMzMTQxMzM4MDM2LTE1MDM5OTQ0NjEtMWRiMDhiZTY2Yg) is created for developers to discuss Tagvote development concerns. If you have an idea (and not the code for it) you may contact us either with the support@tagvote.com email address or submit it to [#tagvotedev](https://tagvote.com/c/tagvotedev) channel.
+Thank you for considering contributing to the Tagvote. To encourage active collaboration, Tagvote strongly encourages pull requests, not just bug reports. [Tagvote's Slack channel](https://join.slack.com/t/tagvote/shared_invite/enQtMjc0OTE3NDI2OTE2LTcyMDk2Nzc0OTI5MjIzNjBjNWRlMDlmMmY3ZWIyMzkyNmE1NmI3MDdiN2Q4OGQ1N2FkYWQ4ZjVkYTA1ZjY3YTI) is created for developers to discuss Tagvote development concerns. If you have an idea (and not the code for it) you may contact us either with the support@tagvote.com email address or submit it to [#tagvotedev](https://tagvote.com/c/tagvotedev) channel.
 
 ## Coding Style
 
@@ -26,9 +26,7 @@ Tagvote is a Laravel application that runs on the following software:
 - [Node v9.2.0](https://nodejs.org)
 - [NPM 5.5.1](https://npmjs.com)
 - [Pusher](https://pusher.com/) (we use [laravel-echo-server](https://github.com/tlaverdure/laravel-echo-server) on production server)
-- [Algolia Search](https://www.algolia.com/referrals/fb684d54/join/)
-
-To install all the required stack on a server, we recommend an auto-installation service such as [CodePier](https://codepier.io/?ref=tagvote).
+- [Algolia Search](https://www.algolia.com)
 
 ## Installation Steps
 
