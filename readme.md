@@ -18,7 +18,7 @@ Tagvote follows the PSR-2 coding standard and the PSR-4 autoloading standard. Ta
 Tagvote is a Laravel application that runs on the following software:
 
 - [Ubuntu](https://ubuntu.com)
-- [Nginx](https://nginx.org/en) or Apache](https://httpd.apache.org)
+- [Nginx](https://nginx.org/en) or [Apache](https://httpd.apache.org)
 - [MySQL 5.7+](https://www.mysql.com)
 - [PHP 7.1+](https://php.net)
 - [Redis 3.0+](https://redis.io)
