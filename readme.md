@@ -23,6 +23,8 @@ Tagvote is a Laravel application that runs on the following software:
 - PHP 7.1+
 - Redis 3.0+
 - Git 2.8.4+
+- Node v8.1.2
+- NPM 5.5.1
 - [Pusher](https://pusher.com/) (we use [laravel-echo-server](https://github.com/tlaverdure/laravel-echo-server) on production server)
 - [Algolia Search](https://www.algolia.com/referrals/fb684d54/join/)
 
