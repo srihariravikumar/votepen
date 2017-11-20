@@ -7,7 +7,7 @@ Tagvote is a real-time social bookmarking for the 21st century. It's real-time, 
 
 ## Contributing
 
-Thank you for considering contributing to the Tagvote. To encourage active collaboration, Tagvote strongly encourages pull requests, not just bug reports. [Tagvote's Slack channel](https://join.slack.com/t/tagvote/shared_invite/enQtMjc0OTE3NDI2OTE2LTcyMDk2Nzc0OTI5MjIzNjBjNWRlMDlmMmY3ZWIyMzkyNmE1NmI3MDdiN2Q4OGQ1N2FkYWQ4ZjVkYTA1ZjY3YTI) is created for developers to discuss Tagvote development concerns. If you have an idea (and not the code for it) you may contact us either with the support@tagvote.com email address or submit it to [#tagvotedev](https://tagvote.com/c/tagvotedev) channel.
+Thank you for considering contributing to the Tagvote. To encourage active collaboration, Tagvote strongly encourages pull requests, not just bug reports. [Tagvote's Slack channel](https://join.slack.com/t/tagvote/shared_invite/enQtMjc0OTE3NDI2OTE2LTcyMDk2Nzc0OTI5MjIzNjBjNWRlMDlmMmY3ZWIyMzkyNmE1NmI3MDdiN2Q4OGQ1N2FkYWQ4ZjVkYTA1ZjY3YTI) is created for developers to discuss Tagvote development concerns. If you have an idea (and not the code for it) you may contact us either with the support@tagvote.com email address or submit it to [#tagvotedev](https://tagvote.com/c/TagvoteDev) channel.
 
 ## Coding Style
 
@@ -56,7 +56,7 @@ To create an admin user, run the below command from the root of the project
 php artisan db:seed --class=AdminUserSeeder
 ```
 
-The login details for the admin user is `admin` and `password`.
+The login details for the admin user is `admin` and `admin`.
 
 After running the seeder, be sure to clear your redis cache, you should now be able to navigate to `/backend`
 

@@ -7,7 +7,7 @@
 		</div>
 
 		<h3 class="weight-500 go-green">Invite a friend:</h3>
-		<p>At the moment, Voten is in beta phase, which means only invited users can join us. Here you can send an invitation email to a friend of yours.</p>
+		<p>At the moment only invited users can join us. Here you can send an invitation email to a friend of yours.</p>
 		<div class="form-group">
 			<input type="text" v-model="inviteTo" class="form-control" placeholder="Email Address...">
 			<small class="text-muted go-red" v-for="e in inviteErrors.email">{{ e }}</small>

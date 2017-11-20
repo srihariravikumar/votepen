@@ -7,7 +7,7 @@
                 </h2>
 
                 <p class="user-select">
-                    Voten uses a slightly-customized and limited version of Markdown for formatting. Here is a quick and simple guide:
+                    Tagvote uses a slightly-customized and limited version of Markdown for formatting. Here is a quick and simple guide:
                 </p>
 
                 <table class="table">
@@ -41,11 +41,11 @@
 
                         <tr>
 					      	<td>
-					      		[voten.co](https://voten.co)
+					      		[tagvote.com](https://tagvote.com)
 					      	</td>
 
 					      	<td>
-					      		<a href="https://voten.co" target="_blank">voten.co</a>
+					      		<a href="https://tagvote.com" target="_blank">tagvote.com</a>
 					      	</td>
 					    </tr>
 
@@ -94,13 +94,13 @@
                         <tr>
 					      	<td>
 					      	<br>
-					      		```if (url == "voten") {<br>
+					      		```if (url == "tagvote") {<br>
 						        	return "welcome"<br>
 						        }```
 					      	</td>
 
 					      	<td>
-<pre>if (url == "voten") {
+<pre>if (url == "tagvote") {
     return "welcome"
 }</pre>
 					      	</td>

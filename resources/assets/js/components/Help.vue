@@ -30,7 +30,7 @@
 
         <div class="simple-box user-select" v-if="voted">
             <h3>
-                Thanks for helping us improve Voten.
+                Thanks for helping us improve Tagvote.
             </h3>
         </div>
     </section>

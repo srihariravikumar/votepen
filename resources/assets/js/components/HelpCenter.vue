@@ -22,7 +22,7 @@
 
 			<h1>
 				No results were found for your search. Ask
-				<router-link to="/c/VotenSupport">#VotenSupport</router-link>
+				<router-link to="/c/TagvoteSupport">#TagvoteSupport</router-link>
 				for an answer.
 			</h1>
 		</div>
