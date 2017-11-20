@@ -3,7 +3,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/854350c061bc49d9b6f0bb90f99018f4)](https://www.codacy.com/app/Tagvote/tagvote?utm_source=github.com&utm_medium=referral&utm_content=tagvote/tagvote&utm_campaign=badger)
 [![StyleCI](https://styleci.io/repos/111306356/shield?branch=master)](https://styleci.io/repos/111306356)
 
-Tagvote is a real-time social bookmarking for the 21st century. It's real-time, beautiful, customizable yet simple. To get a quick taste of what Tagvote is written with please check our [credits page](https://tagvote.com/credits).
+Tagvote is a real-time social bookmark platform. It's real-time, beautiful, customizable yet simple. To get a quick taste of what Tagvote is written with please check our [credits page](https://tagvote.com/credits).
 
 ## Contributing
 
@@ -25,7 +25,7 @@ Tagvote is a Laravel application that runs on the following software:
 - [Git 2.8.4+](https://git-scm.com)
 - [Node v9.2.0](https://nodejs.org)
 - [NPM 5.5.1](https://npmjs.com)
-- [Pusher](https://pusher.com/) (we use [laravel-echo-server](https://github.com/tlaverdure/laravel-echo-server) on production server)
+- [Pusher](https://pusher.com) (we use [laravel-echo-server](https://github.com/tlaverdure/laravel-echo-server) on production server)
 - [Algolia Search](https://www.algolia.com)
 
 ## Installation Steps
@@ -58,11 +58,11 @@ php artisan db:seed --class=AdminUserSeeder
 
 The login details for the admin user is `admin` and `admin`.
 
-After running the seeder, be sure to clear your redis cache, you should now be able to navigate to `/backend`
+After running the seeder, be sure to clear your redis cache, you should now be able to navigate to `https://example.com/backend`
 
 ## Security Vulnerabilities
 
-If you discover any security vulnerability within Tagvote's source code, please send an e-mail to Sully Fischer at fischersully@gmail.com instead of opening an issue. All security vulnerabilities will be promptly addressed.
+If you discover any security vulnerability within Tagvote's source code, please send an e-mail to Yoginth at yoginth@aol.com instead of opening an issue. All security vulnerabilities will be promptly addressed.
 
 ## API
 
