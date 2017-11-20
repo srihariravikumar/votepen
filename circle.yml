@@ -6,7 +6,7 @@ machine:
     version: 7.1.0
 
   node:
-    version: 8.2.0
+    version: 9.2.0
 
   services:
     - mysql
