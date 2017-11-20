@@ -47,7 +47,7 @@ php artisan key:generate
 php artisan migrate
 php artisan passport:install
 npm install
-npm run production
+npm run prod
 ```
 
 ### Create admin user
