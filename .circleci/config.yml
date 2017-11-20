@@ -5,9 +5,6 @@ jobs:
       # specify the version you desire here
       - image: framgia/laravel-workspace
 
-      # Specify service dependencies here if necessary
-      # CircleCI maintains a library of pre-built images
-      # documented at https://circleci.com/docs/2.0/circleci-images/
       - image: circleci/mysql:5.7.18
         environment:
           MYSQL_DATABASE: homestead_test
@@ -21,7 +18,7 @@ jobs:
       - checkout
 
       - run: chmod -R 777 storage
-      - run: cp .env.testing.example .env
+      - run: cp .env.dusk.testing .env
 
       # Download and cache dependencies
       # Composer
