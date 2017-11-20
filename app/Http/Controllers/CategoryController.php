@@ -143,8 +143,7 @@ class CategoryController extends Controller
         }
 
         if (!$this->mustHaveMinimumKarma(10) && !$this->mustBeWhitelisted()) {
-            return response('During beta, channel creation requires a minimum of 10 karma points.
-            Either do a bit of activity or contact administrators to lift the limits for your account.', 500);
+            return response('Channel creation requires a minimum of 10 karma points.', 500);
         }
 
         $tooEarly = $this->tooEarlyToCreate();
