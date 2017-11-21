@@ -72,7 +72,7 @@ return [
             'port'     => env('DB_PORT', '5432'),
             'database' => env('DB_DATABASE', 'tagvote_test'),
             'username' => env('DB_USERNAME', 'root'),
-            'password' => env('DB_PASSWORD', 'secret'),
+            'password' => env('DB_PASSWORD', 'semaphoredb'),
             'charset'  => 'utf8',
             'prefix'   => '',
             'schema'   => 'public',
