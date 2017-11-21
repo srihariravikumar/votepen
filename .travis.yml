@@ -17,6 +17,3 @@ before_script:
 cache:
   - node_modules
   - vendor
-
-script:
-  - vendor/bin/phpunit
