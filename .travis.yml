@@ -16,7 +16,6 @@ before_script:
   - php artisan optimize
   - php artisan db:seed --class=AdminUserSeeder
 
-
 before_install:
   - mysql -e 'create database tagvote_test;'
 
