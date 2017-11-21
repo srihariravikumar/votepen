@@ -5,6 +5,7 @@ php:
 
 before_script:
   - cp .env.dusk.testing .env
+  - mysql -e 'create database tagvote_test;'
   - composer self-update
   - composer install --no-interaction
   - php artisan key:generate
@@ -15,9 +16,6 @@ before_script:
   - npm run production
   - php artisan optimize
   - php artisan db:seed --class=AdminUserSeeder
-
-before_install:
-  - mysql -e 'create database tagvote_test;'
 
 services:
   - mysql
