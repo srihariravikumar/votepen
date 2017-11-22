@@ -78,7 +78,7 @@
 	    },
 
         created() {
-            this.setPageTitle('Tagvote - Social Bookmarking', true);
+            this.setPageTitle('Tagvote - Stay Updated', true);
             this.askNotificationPermission();
         },
 
