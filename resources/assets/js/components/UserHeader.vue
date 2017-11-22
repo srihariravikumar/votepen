@@ -52,7 +52,7 @@
 		                </span>
 
 		                <a v-bind:href="userStore.info.website" rel="nofollow" target="_blank" v-if="userStore.info.website" class="inline-block">
-		                	<img src={{ https://www.google.com/s2/favicons?domain= | userStore.info.website }} style="margin-bottom:4px;margin-left:9px;margin-right:9px;height:18px"><i aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Website"></i>{{ userStore.info.website }}
+		                	<i class="v-icon v-link" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Website"></i>{{ userStore.info.website }}
 		                </a>
 
 		                <span v-if="userStore.location" class="inline-block">
