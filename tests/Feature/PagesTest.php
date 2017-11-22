@@ -18,7 +18,7 @@ class PagesTest extends TestCase
     /** @test */
     public function about_page()
     {
-        $this->get('/about')->assertSee('Social Bookmarking For The 21st Century');
+        $this->get('/about')->assertSee('Social Bookmarking to Stay Updated');
     }
 
     /** @test */
