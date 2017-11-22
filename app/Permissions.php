@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Cache;
 trait Permissions
 {
     /**
-     * Is Auth user a Voten official administrator.
+     * Is Auth user a Tagvote official administrator.
      *
      * @param $user_id
      *
