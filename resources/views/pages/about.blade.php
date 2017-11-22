@@ -54,7 +54,7 @@
 			<img src="{{ config('app.url') }}/imgs/tagvote.svg" alt="Tagvote" class="about-logo margin-bottom-1">
 
 			<h1 class="title">
-				Social Bookmarking For The 21st Century
+				Social Bookmarking to Stay Updated
 			</h1>
 		</div>
 
@@ -71,7 +71,7 @@ Tagvote's mission is to give people the power to share their content with not ju
 		</p>
 
 		<br>
-		<h2 class="title">Designed for the 21st century</h2>
+		<h2 class="title">Designed for Stay Updated</h2>
 		<p>
 			Thanks to the power of open-source community, Tagvote has become the most modern social bookmarking platform on the Internet. It's been developed from scratch to work with latest web technologies such as WebSockets. Voters have full control over their browsing experience. Tagvote's UI is highly customizable yet deadly simple.
 		</p>
