@@ -19,7 +19,7 @@ class ExampleTest extends DuskTestCase
     {
         $this->browse(function (Browser $browser) {
             $browser->visit('/')
-                    ->assertSee('New to Voten?');
+                    ->assertSee('New to Tagvote?');
         });
     }
 }
