@@ -9,13 +9,13 @@
 @section('head')
 	<title>Tagvote - Stay Updated</title>
 	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Tagvote - Social Bookmarking to Stay Updated" />
+	<meta property="og:title" content="Tagvote - Stay Updated" />
 	<meta property="og:url" content="{{ config('app.url') }}" />
 	<meta property="og:site_name" content="Tagvote" />
 
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:site" content="@tagvote" />
-	<meta name="twitter:title" content="Tagvote - Social Bookmarking to Stay Updated" />
+	<meta name="twitter:title" content="Tagvote - Stay Updated" />
 
 	<meta name="description" content="A Modern, real-time, open-source, beautiful, deadly simple and warm community."/>
 	<meta property="og:description" content="A Modern, real-time, open-source, beautiful, deadly simple and warm community." />
