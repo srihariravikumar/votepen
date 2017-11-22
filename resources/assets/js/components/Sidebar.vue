@@ -7,12 +7,12 @@
         </div>
 
         <div class="profile-card">
+	    <div class="profile-card-status" style="font-size:25px">{{ auth.name }}</div>
             <div class="profile-card-name">
     			<router-link :to="'/' + '@' + auth.username">
             		{{ '@' + auth.username}}
         		</router-link>
-    		</div>
-            <div class="profile-card-status">{{ auth.name }}</div>
+    		</div>        
         </div>
 
         <hr>
