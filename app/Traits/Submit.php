@@ -179,7 +179,7 @@ trait Submit
      */
     protected function getTitle($url)
     {
-        $apiURL = 'https://midd.voten.co/embed/title?url='.$url;
+        $apiURL = 'http://localhost/embed/?title='.$url;
 
         try {
             $title = file_get_contents($apiURL);
