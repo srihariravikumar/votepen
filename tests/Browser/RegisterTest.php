@@ -29,7 +29,7 @@ class RegisterTest extends DuskTestCase
                     ->type('confirm_password', 'absolutelyamazing')
                     ->click('.form-register button.v-button')
                     ->waitForLocation('/find-channels')
-                    ->assertSee('Welcome to Voten, dusk');
+                    ->assertSee('Welcome to Tagvote, dusk');
         });
     }
 }
