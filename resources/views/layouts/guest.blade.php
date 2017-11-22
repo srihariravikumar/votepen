@@ -8,10 +8,10 @@
     @yield('head')
     <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
 
-    <script src="assets/socket.io.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.5/socket.io.min.js"></script>
 
     <script src="assets/emojione.min.js"></script>
-    <link rel="stylesheet" href="assets/emojione.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/css/emojione.min.css"/>
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
