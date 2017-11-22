@@ -4,14 +4,14 @@
 	<title>Tagvote</title>
 	<meta property="og:title" content="Tagvote | Where your vote matters" />
 	<meta property="og:image" content="/imgs/tagvote.svg">
-	<meta name="description" content="Social Bookmarking For The 21st Century. Best Reddit alternative on the Internet."/>
+	<meta name="description" content="Social Bookmarking to Stay Updated."/>
 @stop
 
 @section('content')
 	<div class="landing-layout-gray">
 		<div class="landing-wrapper align-center">
 			<h1 class="home-title-big">
-				Social Bookmarking For The 21st Century
+				Social Bookmarking to Stay Updated
 			</h1>
 
 			<h2 class="sub-title">
