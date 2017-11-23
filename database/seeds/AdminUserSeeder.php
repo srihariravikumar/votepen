@@ -14,7 +14,7 @@ class AdminUserSeeder extends Seeder
         //Create a new user
         $admin_id = DB::table('users')->insertGetId([
             'username'  => 'admin',
-            'name'      => 'admin',
+            'name'      => 'password',
             'password'  => bcrypt('admin'),
             'confirmed' => 1,
             'verified'  => 1,
