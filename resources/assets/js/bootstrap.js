@@ -32,6 +32,12 @@ if (Laravel.env == 'local') {
 	    key: Laravel.pusherKey,
 	    cluster: Laravel.pusherCluster
 	});
+} else if (Laravel.env == 'production') {
+  window.Echo = new Echo({
+      broadcaster: 'pusher',
+      key: '2801f0d58cd36d94xxxx',
+      cluster: 'us2'
+  });
 } else {
 	window.Echo = new Echo({
 	    broadcaster: 'socket.io',
