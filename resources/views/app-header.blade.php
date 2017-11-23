@@ -66,6 +66,11 @@
 	                    Bookmarks
 	                </router-link>
 
+					@if(optional(Auth::user())->isVotepenAdministrator())
+						<router-link :to="{ path: '/backend' }" class="item">
+	                    	Admin
+	                	</router-link>
+					@endif
 					<router-link :to="{ path: '/subscribed-channels' }" class="item">
 	                    Subscribed Channels
 	                </router-link>
