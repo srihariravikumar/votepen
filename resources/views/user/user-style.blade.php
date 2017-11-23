@@ -3,7 +3,7 @@
 
 	<style media="screen">
 		body,
-	    #tagvote-app{
+	    #votepen-app{
 	        font-family: 'Lato', sans-serif;
 	    }
 
@@ -131,7 +131,7 @@
 
 	<style media="screen">
 	    body,
-	    #tagvote-app{
+	    #votepen-app{
 	        font-family: '{{ settings('font') }}', sans-serif;
 	    }
 
