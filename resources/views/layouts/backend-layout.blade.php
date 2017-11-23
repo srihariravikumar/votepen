@@ -11,13 +11,13 @@
     	@show
     </title>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.5/socket.io.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/votepen-cdn@2.0.0/js/socket.io.min.js"></script>
 
 
     @yield('head')
         <link href="/icons/css/fontello.6.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.0/css/bulma.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.6.1/css/bulma.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/votepen-cdn@1.0.0/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="{{ mix('/css/admin.css') }}">
     @include('user.user-style')
 
