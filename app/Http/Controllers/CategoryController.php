@@ -331,7 +331,7 @@ class CategoryController extends Controller
     }
 
     /**
-     * Destroys the category model and all its related models. Currently only Tagvote administrators have such permission.
+     * Destroys the category model and all its related models. Currently only Votepen administrators have such permission.
      *
      * @param Category $category
      */

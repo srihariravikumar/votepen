@@ -33,7 +33,7 @@ class BanController extends Controller
 
         $user = User::where('username', $request->username)->firstOrFail();
 
-        // make sure only Tagvote-administrators are able to ban users everywhere
+        // make sure only Votepen-administrators are able to ban users everywhere
         if ($request->category == 'all') {
             abort_unless($this->mustBeVotenAdministrator() && $request->username != Auth::user()->username, 403);
 

@@ -17,7 +17,7 @@ class BlockDomainController extends Controller
      * Stores a BlockedDomain record.
      *
      * Hint: since general bann happens from through backend form (and not via ajax) we check for it.
-     * If it isn't via ajax, it means it's been from backend and done by a TagvoteAdministrator.
+     * If it isn't via ajax, it means it's been from backend and done by a VotepenAdministrator.
      *
      * @param \Illuminate\Http\Request $request
      *

@@ -286,7 +286,7 @@ class User extends Authenticatable
     }
 
     /**
-     * Whether or not the auth user is a Tagvote administrator.
+     * Whether or not the auth user is a Votepen administrator.
      *
      * @return bool
      */

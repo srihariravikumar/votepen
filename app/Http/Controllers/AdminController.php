@@ -20,7 +20,7 @@ class AdminController extends Controller
     }
 
     /**
-     * Is the authinticated user a Tagvote administrator?
+     * Is the authinticated user a Votepen administrator?
      *
      * @return string
      */

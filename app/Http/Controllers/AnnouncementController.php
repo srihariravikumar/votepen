@@ -49,7 +49,7 @@ class AnnouncementController extends Controller
         ]);
 
         if ($request->category_name == 'home' && !$request->ajax()) {
-            // only a Tagvote administrator is able to make an announcement to everyone's home-feed
+            // only a Votepen administrator is able to make an announcement to everyone's home-feed
             abort_unless($this->mustBeVotenAdministrator(), 403);
         } else {
             $category = $this->getCategoryByName($request->category);
