@@ -123,12 +123,8 @@
 			                    About
 			                </a>
 
-			                <a href="mailto:support@votepen.com" class="item">
-			                    Contact Us
-			                </a>
-
 			                <router-link class="item" to="/feedback">
-			                    Feedback
+			                    Contact
 			                </router-link>
 
 			                <a class="item" href="https://votepen.com/tos">
@@ -145,10 +141,6 @@
 
 							<a href="/credits" class="item">
 			                    Credits
-			                </a>
-
-			                <a href="https://github.com/votepen/votepen" class="item" target="_blank">
-			                    Source Code
 			                </a>
 
 							<a href="https://join.slack.com/t/votepen/shared_invite/enQtMjc0OTE3NDI2OTE2LTcyMDk2Nzc0OTI5MjIzNjBjNWRlMDlmMmY3ZWIyMzkyNmE1NmI3MDdiN2Q4OGQ1N2FkYWQ4ZjVkYTA1ZjY3YTI" class="item" target="_blank">
