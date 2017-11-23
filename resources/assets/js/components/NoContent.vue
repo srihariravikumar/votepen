@@ -1,7 +1,7 @@
 <template>
 	<transition name="fade">
 		<div class="no-content-wrapper user-select" v-show="visible">
-	    	<img src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/2.5.0/2/svg/1f622.svg" style="width:102px">
+	    	<img src="https://cdn.jsdelivr.net/npm/votepen-cdn@1.0.0/twemoji/svg/1f622.svg" style="width:102px">
 	        <h1>{{ text }}</h1>
 		</div>
 	</transition>
