@@ -1,6 +1,6 @@
 # Tagvote
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/854350c061bc49d9b6f0bb90f99018f4)](https://www.codacy.com/app/Tagvote/tagvote?utm_source=github.com&utm_medium=referral&utm_content=tagvote/tagvote&utm_campaign=badger)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6bfa966e461a4817aec1c21cad778301)](https://www.codacy.com/app/Votepen/votepen?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=votepen/votepen&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://styleci.io/repos/111765544/shield?branch=master)](https://styleci.io/repos/111765544)
 [![Build Status](https://semaphoreci.com/api/v1/yoginth/votepen/branches/master/shields_badge.svg)](https://semaphoreci.com/yoginth/votepen)
 
