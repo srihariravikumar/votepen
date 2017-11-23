@@ -8,7 +8,7 @@
 
         <p>
             If your channel needs more rules than already written in Votepen's general <a href="/tos">TOS</a> page, you may specify yours here.
-            Due to keeping Tagvote simple to use, a maximum of five rules is allowed for each channel.
+            Due to keeping Votepen simple to use, a maximum of five rules is allowed for each channel.
         </p>
 
         <div class="form-group" v-if="type == 'edit' || (type == 'create' && items.length < 5)">

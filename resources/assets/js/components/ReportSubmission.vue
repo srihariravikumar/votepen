@@ -69,7 +69,7 @@
                 ></i>
 
                 <p>
-                    Thank you for helping us fight spam on Tagvote.
+                    Thank you for helping us fight spam on Votepen.
                 </p>
             </div>
         </div>

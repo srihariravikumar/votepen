@@ -58,7 +58,7 @@
         	<li><a href="https://medium.com/votepen" target="_blank">Blog</a></li>
         	<li><a href="/privacy-policy">Privacy Policy</a></li>
         	<li><a href="/credits">Credits</a></li>
-        	<li><a href="mailto:press@tagvote.com">Press</a></li>
+        	<li><a href="mailto:press@votepen.com">Press</a></li>
         </ul>
     </div>
 </template>
