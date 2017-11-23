@@ -2,15 +2,15 @@
 
 # Hey {{ '@' . $username }},
 
-Thank you for registering for an account on Tagvote. Before we get started, we just need to confirm that this is you. Click on below button to verify your email address:
+Thank you for registering for an account on Votepen. Before we get started, we just need to confirm that this is you. Click on below button to verify your email address:
 
 @component('mail::button', ['url' => config('app.url') . '/email/verify?token=' . $token])
 Verify Email
 @endcomponent
 
 @component('mail::panel')
-    Need help? Check out our [Help Center](https://tagvote.com/help), ask [community](https://tagvote.com/c/TagvoteSupport), or hit us up on Twitter [@tagvote](https://twitter.com/tagvote).
-    Want to give us feedback? Let us know what you think on our [feedback page](https://tagvote.com/feedback).
+    Need help? Check out our [Help Center](https://votepen.com/help), ask [community](https://votepen.com/c/VotepenSupport), or hit us up on Twitter [@votepen](https://twitter.com/votepen).
+    Want to give us feedback? Let us know what you think on our [feedback page](https://votepen.com/feedback).
 @endcomponent
 
 @component('mail::subcopy')

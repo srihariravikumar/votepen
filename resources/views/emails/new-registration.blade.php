@@ -3,7 +3,7 @@
 
 We just had another registeration by the username: "{{ $username }}"
 
-@component('mail::button', ['url' => 'https://tagvote.com/backend'])
+@component('mail::button', ['url' => 'https://votepen.com/backend'])
 Checkout
 @endcomponent
 
@@ -14,5 +14,5 @@ Hope you're doing great ;)
 
 
 Regards,<br>
-The Tagvote Team
+The Votepen Team
 @endcomponent

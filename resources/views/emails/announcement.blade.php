@@ -15,5 +15,5 @@
 @endif
 
 Thanks for your time,<br>
-The Tagvote Team
+The Votepen Team
 @endcomponent

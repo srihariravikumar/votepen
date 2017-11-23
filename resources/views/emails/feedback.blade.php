@@ -15,5 +15,5 @@ Hope you're doing great ;)
 
 
 Regards,<br>
-The Tagvote Team
+The Votepen Team
 @endcomponent
