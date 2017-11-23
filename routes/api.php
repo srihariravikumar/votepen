@@ -2,7 +2,7 @@
 
 Route::group(['middleware' => 'auth:api'], function () {
     // Administrator routes
-    Route::post('/big-daddy', 'AdminController@isAdministrator');
+    Route::post('/admin/additionals', 'AdminController@isAdministrator');
     Route::post('/admin/users', 'AdminController@indexUsers');
     Route::post('/admin/comments', 'AdminController@comments');
     Route::post('/admin/channels', 'AdminController@categories');
