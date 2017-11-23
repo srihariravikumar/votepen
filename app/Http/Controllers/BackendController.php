@@ -342,7 +342,7 @@ class BackendController extends Controller
             'appointed_as' => $request->appointed_as,
         ]);
 
-        Cache::forget('general.Votepen-administrators');
+        Cache::forget('general.votepen-administrators');
         Cache::forget('general.whitelisted');
 
         return back();
@@ -363,7 +363,7 @@ class BackendController extends Controller
 
         $appointed->delete();
 
-        Cache::forget('general.Votepen-administrators');
+        Cache::forget('general.votepen-administrators');
         Cache::forget('general.whitelisted');
 
         return back();
