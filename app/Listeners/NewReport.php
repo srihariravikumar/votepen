@@ -39,7 +39,7 @@ class NewReport
     }
 
     /**
-     * Notify Tagvote amdins.
+     * Notify Votepen amdins.
      *
      * @param \App\Report $report
      *
