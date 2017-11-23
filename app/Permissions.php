@@ -183,7 +183,7 @@ trait Permissions
 
     protected function getVotepenAdministrators()
     {
-        return Cache::rememberForever('general.Votepen-administrators', function () {
+        return Cache::rememberForever('general.votepen-administrators', function () {
             return AppointeddUser::where('appointed_as', 'administrator')->pluck('user_id');
         });
     }
