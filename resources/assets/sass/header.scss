@@ -12,7 +12,7 @@
     }
 }
 
-.header-tagvote {
+.header-votepen {
     width: 100%;
     height: 52px;
     background: #fff;
@@ -32,7 +32,7 @@
     margin-left: 1em;
 }
 
-.logo-tagvote {
+.logo-votepen {
     position: absolute;
     left: 48%;
     top: 13px;
@@ -40,25 +40,25 @@
     color: #333;
 }
 
-.logo-tagvote {
+.logo-votepen {
     height: 27px;
     text-decoration: none;
     color: #c23733;
 }
 
-.logo-tagvote img {
+.logo-votepen img {
     height: 34px;
 
 }
 
-.logo-tagvote small {
+.logo-votepen small {
     font-size: 8px;
     position: absolute;
     right: -19px;
     bottom: 3px;
 }
 
-.logo-tagvote a {
+.logo-votepen a {
     text-decoration: none;
     color: #c23733;
 }
@@ -141,7 +141,7 @@ button.v-menu-button--checked > span {
 //     }
 // }
 // notification header
-.header-tagvote .dropdown-menu-notif .dropdown-menu-notif-item .photo {
+.header-votepen .dropdown-menu-notif .dropdown-menu-notif-item .photo {
     width: 32px;
     height: 32px;
     position: absolute;
@@ -150,14 +150,14 @@ button.v-menu-button--checked > span {
     margin-top: -16px;
 }
 
-.header-tagvote .dropdown-menu-notif .dropdown-menu-notif-item .photo img {
+.header-votepen .dropdown-menu-notif .dropdown-menu-notif-item .photo img {
     -webkit-border-radius: 50%;
     border-radius: 50%;
     display: block;
     width: 100%;
 }
 
-.header-tagvote .dropdown-menu-notif .dropdown-menu-notif-item .dot {
+.header-votepen .dropdown-menu-notif .dropdown-menu-notif-item .dot {
     display: inline-block;
     vertical-align: middle;
     width: 6px;
@@ -170,19 +170,19 @@ button.v-menu-button--checked > span {
     top: 2px;
 }
 
-.header-tagvote .dropdown.dropdown-notification .dropdown-menu-notif-more {
+.header-votepen .dropdown.dropdown-notification .dropdown-menu-notif-more {
     border-top: solid 1px #d8e2e7;
     text-align: center;
     padding: 10px 15px;
     font-size: 1rem;
 }
 
-.header-tagvote .dropdown.dropdown-notification .dropdown-menu-notif-more a {
+.header-votepen .dropdown.dropdown-notification .dropdown-menu-notif-more a {
     text-decoration: none;
     border-bottom: solid 1px transparent;
 }
 
-.header-tagvote .dropdown-menu-notif {
+.header-votepen .dropdown-menu-notif {
     width: 290px;
     padding: 0;
     line-height: normal;
@@ -191,7 +191,7 @@ button.v-menu-button--checked > span {
     right: -7px;
 }
 
-.header-tagvote .dropdown-menu-notif a {
+.header-votepen .dropdown-menu-notif a {
     text-decoration: none;
     border-bottom: solid 1px transparent;
     color: #576a8c;
@@ -199,34 +199,34 @@ button.v-menu-button--checked > span {
     font-weight: 600;
 }
 
-.header-tagvote .dropdown-menu-notif .dropdown-menu-notif-header {
+.header-votepen .dropdown-menu-notif .dropdown-menu-notif-header {
     padding: 12px 15px;
     border-bottom: solid 1px #d8e2e7;
     font-weight: 600;
 }
 
-.header-tagvote .dropdown-menu-notif .dropdown-menu-notif-header .label {
+.header-votepen .dropdown-menu-notif .dropdown-menu-notif-header .label {
     font-size: 0.875rem;
     font-weight: 400;
     padding-left: .5em;
     padding-right: .5em;
 }
 
-.header-tagvote .dropdown-menu-notif .dropdown-menu-notif-list {
+.header-votepen .dropdown-menu-notif .dropdown-menu-notif-list {
     height: 192px;
     overflow: auto;
 }
 
-.header-tagvote .dropdown-menu-notif .dropdown-menu-notif-item {
+.header-votepen .dropdown-menu-notif .dropdown-menu-notif-item {
     padding: 8px 15px 8px 57px;
     position: relative;
 }
 
-.header-tagvote .dropdown-menu-notif .dropdown-menu-notif-item:nth-child(even) {
+.header-votepen .dropdown-menu-notif .dropdown-menu-notif-item:nth-child(even) {
     background: #fbfcfd;
 }
 
-.header-tagvote .dropdown-menu-notif .dropdown-menu-notif-item .photo {
+.header-votepen .dropdown-menu-notif .dropdown-menu-notif-item .photo {
     width: 32px;
     height: 32px;
     position: absolute;
@@ -235,14 +235,14 @@ button.v-menu-button--checked > span {
     margin-top: -16px;
 }
 
-.header-tagvote .dropdown-menu-notif .dropdown-menu-notif-item .photo img {
+.header-votepen .dropdown-menu-notif .dropdown-menu-notif-item .photo img {
     -webkit-border-radius: 50%;
     border-radius: 50%;
     display: block;
     width: 100%;
 }
 
-.header-tagvote .dropdown-menu-notif .dropdown-menu-notif-item .dot {
+.header-votepen .dropdown-menu-notif .dropdown-menu-notif-item .dot {
     display: inline-block;
     vertical-align: middle;
     width: 6px;
