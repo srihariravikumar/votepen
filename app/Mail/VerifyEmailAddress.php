@@ -35,6 +35,6 @@ class VerifyEmailAddress extends Mailable
         $token = $this->token;
 
         return $this->markdown('emails.verify-email-address', compact('username', 'token'))
-            ->subject('Verify Email Address for Tagvote');
+            ->subject('Verify Email Address for Votepen');
     }
 }
