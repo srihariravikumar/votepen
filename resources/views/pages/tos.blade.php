@@ -5,7 +5,7 @@
 		<h1 class="title align-center">Terms Of Service</h1>
 
 		<p>
-			Tagvote is a website for groups and individuals to communicate, meet, and contribute in an open atmosphere, resort to some of the most authentic materials online. The nature of this online materials might be funny, serious, offensive, scientific, political or anywhere in between. While participating, it’s crucial to remember this value above all others: be respectful to all users, so we all can enjoy Tagvote for what it is.
+			Votepen is a website for groups and individuals to communicate, meet, and contribute in an open atmosphere, resort to some of the most authentic materials online. The nature of this online materials might be funny, serious, offensive, scientific, political or anywhere in between. While participating, it’s crucial to remember this value above all others: be respectful to all users, so we all can enjoy Votepen for what it is.
 		</p>
 
 		<h2 class="title">
@@ -13,7 +13,7 @@
 		</h2>
 
 		<p>
-			While Tagvote enables users to apply leeway to what content is acceptable, here are some guidelines for content that is not.
+			While Votepen enables users to apply leeway to what content is acceptable, here are some guidelines for content that is not.
 			Please keep in mind the spirit in which these were written, and know that looking for loopholes are waste of time. Materials are banned if they:
 		</p>
 
@@ -24,7 +24,7 @@
 
 			<li>
 				<b>Porn</b>:
-				Pornography content is not allowed on Tagvote. No matter the kind or category. However, NSFW content is allowed.
+				Pornography content is not allowed on Votepen. No matter the kind or category. However, NSFW content is allowed.
 				For example, you may post an artwork containing nudity(and tag it as NSFW), but you shouldn't post a hentai image.
 			</li>
 
@@ -41,7 +41,7 @@
 			</li>
 
 			<li>
-				<b>Are personal and confidential information</b>: Tagvote is pro-free speech,
+				<b>Are personal and confidential information</b>: Votepen is pro-free speech,
 				but it is not okay to post someone's personal information or post any link directing to such stuff.
 				This includes links to public Facebook pages and screenshots of Facebook pages with the names still readable.
 				We all get outraged by the ignorant things people say and do online,
@@ -56,8 +56,8 @@
 
 			<li>
 				<b>Are spam</b>: Sometimes spam is obvious, but often it is hard to figure out. 
-				If you are posting your own content and other voters appreciate and upvote your posts, you shouldn't have anything to worry about BUT: If your activities on Tagvote consists mainly of sending links only about a certain topic, you should be careful. Additionally, if you do not engage in other conversations and different activities, you may be considered a spammer and banned from Tagvote. If your contributions are often off-topic or not relevant to the community you are posting in, you may be considered a spammer. If you flood a Tagvote channel with posts or comments, you may be considered a spammer. It is better to send a message to the moderators of the community you'd like to submit to. They'll probably appreciate the advance notice.
-				Tagvote channels are allowed to have their additional rules. Thus, they can decide what is spam and what is not.
+				If you are posting your own content and other voters appreciate and upvote your posts, you shouldn't have anything to worry about BUT: If your activities on Votepen consists mainly of sending links only about a certain topic, you should be careful. Additionally, if you do not engage in other conversations and different activities, you may be considered a spammer and banned from Votepen. If your contributions are often off-topic or not relevant to the community you are posting in, you may be considered a spammer. If you flood a Votepen channel with posts or comments, you may be considered a spammer. It is better to send a message to the moderators of the community you'd like to submit to. They'll probably appreciate the advance notice.
+				Votepen channels are allowed to have their additional rules. Thus, they can decide what is spam and what is not.
 			</li>
 		</ul>
 
@@ -67,11 +67,11 @@
 		</h2>
 
 		<p>
-			In addition to not submitting unwelcome content, the following behaviors are banned on Tagvote:
+			In addition to not submitting unwelcome content, the following behaviors are banned on Votepen:
 		</p>
 
 		<p>
-			Asking for votes or engaging in vote manipulation: Vote manipulation is against the Tagvote rules, whether it is manual, programmatic, or otherwise. Some common forms of vote cheating are: Using multiple accounts, voting services, or any other software to increase or decrease vote scores. Asking people to vote up or down certain posts, either on Tagvote itself or through social networks, messaging, etc. for personal gain. Forming or joining a group that votes together, either on a specific post, a user's posts, posts from a domain, etc. Cheating or attempting to manipulate voting will result in your account being banned. Don't do it. Breaking Tagvote or doing anything that interferes with normal use of Tagvote.
+			Asking for votes or engaging in vote manipulation: Vote manipulation is against the Votepen rules, whether it is manual, programmatic, or otherwise. Some common forms of vote cheating are: Using multiple accounts, voting services, or any other software to increase or decrease vote scores. Asking people to vote up or down certain posts, either on Votepen itself or through social networks, messaging, etc. for personal gain. Forming or joining a group that votes together, either on a specific post, a user's posts, posts from a domain, etc. Cheating or attempting to manipulate voting will result in your account being banned. Don't do it. Breaking Votepen or doing anything that interferes with normal use of Votepen.
 			Creating multiple accounts to evade punishment or avoid restrictions
 		</p>
 
@@ -87,7 +87,7 @@
 		</p>
 
 		<p>
-			<b>Porn</b>, however, is not allowed on Tagvote! No matter the kind or category. For example, you may
+			<b>Porn</b>, however, is not allowed on Votepen! No matter the kind or category. For example, you may
 			post an artwork containing nudity(and tag it as NSFW), but you shouldn't post a hentai image.
 		</p>
 
@@ -122,12 +122,12 @@
 		</h2>
 
 		<p>
-			Individual groups on Tagvote which are called channels may have their own rules in addition to ours (as long as they don't break ours) and their own moderators to enforce them.
-			Tagvote provides tools to aid moderators but does not prescribe their usage.
+			Individual groups on Votepen which are called channels may have their own rules in addition to ours (as long as they don't break ours) and their own moderators to enforce them.
+			Votepen provides tools to aid moderators but does not prescribe their usage.
 		</p>
 
 		<p>
-			Please, note that channels on Tagvote are not owned by its moderators. They're just being moderated by them.
+			Please, note that channels on Votepen are not owned by its moderators. They're just being moderated by them.
 			This means even though we do our best not to interfere, we still have the right to take over
 			a channel to take necessary actions if needed. We usually do this when a channel has lack of
 			available moderator to add new ones.
@@ -155,19 +155,19 @@
 
 
 @section('head')
-	<title>Tagvote | Terms Of Service</title>
+	<title>Votepen | Terms Of Service</title>
 	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Tagvote | Terms Of Service" />
+	<meta property="og:title" content="Votepen | Terms Of Service" />
 	<meta property="og:url" content="{{ config('app.url') }}/tos" />
-	<meta property="og:site_name" content="Tagvote" />
+	<meta property="og:site_name" content="Votepen" />
 
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:site" content="@tagvote" />
-	<meta name="twitter:title" content="Tagvote | Terms Of Service" />
+	<meta name="twitter:site" content="@votepen" />
+	<meta name="twitter:title" content="Votepen | Terms Of Service" />
 
-	<meta name="description" content="While Tagvote enables users to apply leeway to what content is acceptable, here are some guidelines for content that is not:"/>
-	<meta property="og:description" content="While Tagvote enables users to apply leeway to what content is acceptable, here are some guidelines for content that is not:" />
-	<meta name="twitter:description" content="While Tagvote enables users to apply leeway to what content is acceptable, here are some guidelines for content that is not:" />
+	<meta name="description" content="While Votepen enables users to apply leeway to what content is acceptable, here are some guidelines for content that is not:"/>
+	<meta property="og:description" content="While Votepen enables users to apply leeway to what content is acceptable, here are some guidelines for content that is not:" />
+	<meta name="twitter:description" content="While Votepen enables users to apply leeway to what content is acceptable, here are some guidelines for content that is not:" />
 	<meta property="og:image" content="{{ config('app.url') }}/imgs/tagvote.svg">
-	<meta name="twitter:image" content="{{ config('app.url') }}/imgs/tagvote.svg" />
+	<meta name="twitter:image" content="{{ config('app.url') }}/imgs/votepen.svg" />
 @endsection

@@ -1,7 +1,7 @@
 @extends('layouts.landing-layout')
 
 @section('title')
-	<title>Tagvote | Credits</title>
+	<title>Votepen | Credits</title>
 @stop
 
 @section('content')
@@ -12,7 +12,7 @@
 			</h1>
 
 			<h2 class="go-gray">
-				Tagvote would like to thank the authors of the following open source components that contributed essential functionality to our applications:
+				Votepen would like to thank the authors of the following open source components that contributed essential functionality to our applications:
 			</h2>
 		</div>
 
@@ -58,7 +58,7 @@
 
 				<div>
 					<p>
-						Vue is a progressive framework for building user interfaces. Vue's bleeding fast performance is the main reason Tagvote's developer team picked it as our primary JS framework.
+						Vue is a progressive framework for building user interfaces. Vue's bleeding fast performance is the main reason Votepen's developer team picked it as our primary JS framework.
 					</p>
 
 					<p>

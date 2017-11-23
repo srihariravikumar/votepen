@@ -1,13 +1,13 @@
 @extends('layouts.landing-layout')
 
 @section('title')
-	<title>Tagvote | Privacy Policy</title>
+	<title>Votepen | Privacy Policy</title>
 @stop
 
 @section('content')
 	<section class="container">
 		<h1 class="title align-center">
-			Tagvote Privacy Policy
+			Votepen Privacy Policy
 		</h1>
 
 		<p>
@@ -97,7 +97,7 @@
 		</h2>
 
 		<p>
-			Unlike other social websites sharing your information with third parties for many reasons, Tagvote is conservative about keeping your information secret. We might connect with third parties in the future but we will never share your information with them.
+			Unlike other social websites sharing your information with third parties for many reasons, Votepen is conservative about keeping your information secret. We might connect with third parties in the future but we will never share your information with them.
 		</p>
 
 		<h2 class="title">
