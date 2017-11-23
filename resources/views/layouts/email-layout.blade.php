@@ -150,8 +150,8 @@
 <body>
 	<div class="container">
 		<div class="align-center">
-			<a href="https://tagvote.com">
-				<img src="https://tagvote.com/imgs/tagvote.svg" alt="Tagvote" class="logo" width="150">
+			<a href="https://votepen.com">
+				<img src="https://votepen.com/imgs/votepen.svg" alt="Votepen" class="logo" width="150">
 			</a>
 		</div>
 
@@ -164,11 +164,11 @@
 		</div>
 
 		<div class="footer">
-			<a href="https://tagvote.com/login">Sign In</a>
-			<a href="https://tagvote.com/help">Help Center</a>
-			<a href="https://tagvote.com/tos">Terms Of Service</a>
-			<a href="https://medium.com/tagvote">Blog</a>
-			<a href="https://twitter.com/tagvote">Twitter</a>
+			<a href="https://votepen.com/login">Sign In</a>
+			<a href="https://votepen.com/help">Help Center</a>
+			<a href="https://votepen.com/tos">Terms Of Service</a>
+			<a href="https://medium.com/votepen">Blog</a>
+			<a href="https://twitter.com/votepen">Twitter</a>
 			<a href="https://facebook.com/tagvote.com">Facebook</a>
 		</div>
 	</div>

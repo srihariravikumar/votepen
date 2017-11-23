@@ -30,7 +30,7 @@
 <body>
 @include('google-analytics')
 
-<div id="tagvote-app" :class="{ 'background-white': Store.contentRouter != 'content' }">
+<div id="votepen-app" :class="{ 'background-white': Store.contentRouter != 'content' }">
     @include('app-header')
 
     <div class="v-content-wrapper">

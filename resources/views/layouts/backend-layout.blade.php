@@ -7,7 +7,7 @@
 
     <title>
     	@section('title')
-    		Backend | Tagvote
+    		Backend | Votepen
     	@show
     </title>
 

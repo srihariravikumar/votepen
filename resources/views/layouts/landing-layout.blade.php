@@ -9,7 +9,7 @@
     @yield('head')
 
     <meta property="og:locale" content="en_US" />
-    <meta property="og:site_name" content="Tagvote.com" />
+    <meta property="og:site_name" content="votepen.com" />
 
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,700" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.5/socket.io.min.js"></script>
@@ -37,21 +37,21 @@
 		<div class="header user-select">
 			<div class="logo">
 				<a href="/">
-					<img src="/imgs/tagvote-logo.png" alt="Tagvote.com">
-					Tagvote
+					<img src="/imgs/votepen-logo.png" alt="votepen.com">
+					Votepen
 				</a>
 			</div>
 
 			<div class="right-menu">
-				<a href="https://medium.com/tagvote" target="_blank" class="item desktop-only">
+				<a href="https://medium.com/votepen" target="_blank" class="item desktop-only">
 					<i class="v-icon v-blog go-yellow"></i>
 					Blog
 				</a>
-				<a href="mailto:support@tagvote.com" class="item desktop-only">
+				<a href="mailto:support@votepen.com" class="item desktop-only">
 					<i class="v-icon v-letter go-green"></i>
 					Contact
 				</a>
-				<a href="mailto:press@tagvote.com" class="item desktop-only">
+				<a href="mailto:press@votepen.com" class="item desktop-only">
 					<i class="v-icon v-press go-red"></i>
 					Press
 				</a>
@@ -80,7 +80,7 @@
 
 		<footer class="user-select">
 			<div class="flex1">
-				<h3 class="go-primary">Tagvote 	&#10084;</h3>
+				<h3 class="go-primary">Votepen 	&#10084;</h3>
 				<ul>
 					<li><a href="/about">About</a></li>
 
@@ -95,21 +95,21 @@
 				</ul>
 			</div>
 			<div class="flex1">
-				<h3 class="go-red">Get to know Tagvote </h3>
+				<h3 class="go-red">Get to know Votepen </h3>
 				<ul>
-					<li><a href="mailto:support@tagvote.com">Contact Us</a></li>
-					<li><a href="mailto:press@tagvote.com">Press</a></li>
+					<li><a href="mailto:support@votepen.com">Contact Us</a></li>
+					<li><a href="mailto:press@votepen.com">Press</a></li>
 					<li><a href="/credits">Credits</a></li>
 					<li><a href="/help">Help Center</a></li>
 				</ul>
 			</div>
 			<div class="flex1">
-				<h3 class="go-green">Follow Tagvote</h3>
+				<h3 class="go-green">Follow Votepen</h3>
 				<ul>
-					<li><a href="https://medium.com/tagvote" target="_blank">Blog</a></li>
-					<li><a href="https://github.com/tagvote/tagvote" target="_blank">Github</a></li>
-					<li><a href="https://twitter.com/tagvote/" target="_blank">Twitter</a></li>
-					<li><a href="https://facebook.com/tagvote.co/" target="_blank">Facebook</a></li>
+					<li><a href="https://medium.com/votepen" target="_blank">Blog</a></li>
+					<li><a href="https://github.com/votepen/votepen" target="_blank">Github</a></li>
+					<li><a href="https://twitter.com/votepen/" target="_blank">Twitter</a></li>
+					<li><a href="https://facebook.com/votepen.com/" target="_blank">Facebook</a></li>
 				</ul>
 			</div>
 		</footer>
