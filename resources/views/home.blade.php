@@ -7,45 +7,45 @@
 
 
 @section('head')
-	<title>Tagvote - Stay Updated</title>
+	<title>Votepen - Stay Updated</title>
 	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Tagvote - Stay Updated" />
+	<meta property="og:title" content="Votepen - Stay Updated" />
 	<meta property="og:url" content="{{ config('app.url') }}" />
-	<meta property="og:site_name" content="Tagvote" />
+	<meta property="og:site_name" content="Votepen" />
 
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:site" content="@tagvote" />
-	<meta name="twitter:title" content="Tagvote - Stay Updated" />
+	<meta name="twitter:site" content="@votepen" />
+	<meta name="twitter:title" content="Votepen - Stay Updated" />
 
 	<meta name="description" content="A Modern, real-time, open-source, beautiful, deadly simple and warm community."/>
 	<meta property="og:description" content="A Modern, real-time, open-source, beautiful, deadly simple and warm community." />
 	<meta name="twitter:description" content="A Modern, real-time, open-source, beautiful, deadly simple and warm community." />
-	<meta property="og:image" content="{{ config('app.url') }}/imgs/tagvote.svg">
-	<meta name="twitter:image" content="{{ config('app.url') }}/imgs/tagvote.svg" />
+	<meta property="og:image" content="{{ config('app.url') }}/imgs/votepen.svg">
+	<meta name="twitter:image" content="{{ config('app.url') }}/imgs/votepen.svg" />
 
 	<script type="application/ld+json">
 	 {
 		 "@context": "http://schema.org",
 		 "@type": "WebSite",
-		 "url": "https://tagvote.com",
-		 "name": "Tagvote",
+		 "url": "https://votepen.com",
+		 "name": "Votepen",
 			"publisher": {
 			 "@type": "Organization",
 		  "logo": {
 			  "@type": "ImageObject",
-				 "url": "https://tagvote.com/imgs/tagvote.svg",
-				 "name": "Tagvote",
+				 "url": "https://votepen.com/imgs/votepen.svg",
+				 "name": "Votepen",
 				 "height": "457",
 				 "width": "457"
 				}
 			},
 		 "sameAs": [
-			 "https://www.facebook.com/tagvote/",
-			 "https://twitter.com/tagvote"
+			 "https://www.facebook.com/votepen/",
+			 "https://twitter.com/votepen"
 		 ],
 		 "potentialAction": {
 			"@type": "SearchAction",
-			"target": "https://tagvote.com/?search={search_term_string}",
+			"target": "https://votepen.com/?search={search_term_string}",
 			"query-input": "required name=search_term_string"
 		 }
 	 }
@@ -60,37 +60,37 @@
 		  "@type":"SiteNavigationElement",
 		  "position":1,
 		  "name": "Hot",
-		  "url":"https://tagvote.com/?sort=hot"
+		  "url":"https://votepen.com/?sort=hot"
 		},
 		{
 		  "@type":"SiteNavigationElement",
 		  "position":2,
 		  "name": "New",
-		  "url":"https://tagvote.com/?sort=new"
+		  "url":"https://votepen.com/?sort=new"
 		},
 		{
 		  "@type":"SiteNavigationElement",
 		  "position":3,
 		  "name": "Rising",
-		  "url":"https://tagvote.com/?sort=rising"
+		  "url":"https://votepen.com/?sort=rising"
 		},
 		{
 		  "@type":"SiteNavigationElement",
 		  "position":4,
 		  "name": "#technology",
-		  "url":"https://tagvote.com/c/technology"
+		  "url":"https://votepen.com/c/technology"
 		},
 		{
 		  "@type":"SiteNavigationElement",
 		  "position":5,
 		  "name": "#news",
-		  "url":"https://tagvote.com/c/news"
+		  "url":"https://votepen.com/c/news"
 		},
 		{
 		  "@type":"SiteNavigationElement",
 		  "position":6,
 		  "name": "#funny",
-		  "url":"https://tagvote.com/c/funny"
+		  "url":"https://votepen.com/c/funny"
 		},
 		{
 		  "@type":"SiteNavigationElement",

@@ -1,9 +1,9 @@
 @extends('layouts.landing-layout')
 
 @section('title')
-	<title>Tagvote</title>
-	<meta property="og:title" content="Tagvote | Where your vote matters" />
-	<meta property="og:image" content="/imgs/tagvote.svg">
+	<title>Votepen</title>
+	<meta property="og:title" content="Votepen | Where your vote matters" />
+	<meta property="og:image" content="/imgs/votepen.svg">
 	<meta name="description" content="Social Bookmarking to Stay Updated."/>
 @stop
 
@@ -35,7 +35,7 @@
 	{{-- Customizable Design --}}
 	<div class="landing-layout-white">
 		<div class="landing-wrapper landing-flex">
-			<img src="/landing/tagvote-submission.jpg" alt="Customizable Design" class="shadow-box left">
+			<img src="/landing/votepen-submission.jpg" alt="Customizable Design" class="shadow-box left">
 
 			<div class="right">
 				<h1>
@@ -43,7 +43,7 @@
 				</h1>
 
 				<p>
-					Which font is the best for reading? Which color? Well, in Tagvote not only you can name it but you can also make it be!
+					Which font is the best for reading? Which color? Well, in Votepen not only you can name it but you can also make it be!
 				</p>
 
 				<p>
@@ -72,7 +72,7 @@
 				</p>
 			</div>
 
-			<img src="/landing/search.jpg" alt="tagvote-search" class="shadow-box left margin-top-2 margin-bottom-3 max-width-50">
+			<img src="/landing/search.jpg" alt="votepen-search" class="shadow-box left margin-top-2 margin-bottom-3 max-width-50">
 		</div>
 	</div>
 
@@ -117,7 +117,7 @@
 	<div class="landing-layout-gray">
 		<div class="landing-wrapper">
 			<h1 class="align-center">
-				Tagvote features at a glance
+				Votepen features at a glance
 			</h1>
 
 			<div class="landing-flex-baseline">

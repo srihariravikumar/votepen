@@ -1,11 +1,11 @@
-<header class="header-tagvote user-select">
+<header class="header-votepen user-select">
 	<div class="left-header">
 		<vui-menu-button :checked="sidebar"></vui-menu-button>
 	</div>
 
     <router-link :to="{ path: '/' }" class="desktop-only">
-        <img src="/imgs/tagvote.svg" alt="Tagvote" @click="homeRoute"
-        	class="logo-tagvote" data-toggle="tooltip" data-placement="bottom" title="Home">
+        <img src="/imgs/votepen.svg" alt="Votepen" @click="homeRoute"
+        	class="logo-votepen" data-toggle="tooltip" data-placement="bottom" title="Home">
     </router-link>
 
     <div class="flex-display">
@@ -52,7 +52,7 @@
 				<i class="v-icon v-more-vertical"></i>
 
 	            <div class="menu">
-	                <div class="header">My Tagvote</div>
+	                <div class="header">My Votepen</div>
 
 					<router-link :to="'/' + '@' + auth.username" class="item">
 	                    Profile
@@ -116,14 +116,14 @@
 	                </router-link>
 
 					<div class="item">
-						<span>&#8592; Tagvote</span>
+						<span>&#8592; Votepen</span>
 
 						<div class="left menu green">
 							<a href="/about" class="item">
 			                    About
 			                </a>
 
-			                <a href="mailto:support@tagvote.com" class="item">
+			                <a href="mailto:support@votepen.com" class="item">
 			                    Contact Us
 			                </a>
 
@@ -131,15 +131,15 @@
 			                    Feedback
 			                </router-link>
 
-			                <a class="item" href="https://tagvote.com/tos">
+			                <a class="item" href="https://votepen.com/tos">
 			                    Site Rules
 			                </a>
 
-			                <a class="item" href="https://tagvote.com/privacy-policy">
+			                <a class="item" href="https://votepen.com/privacy-policy">
 			                    Privacy Policy
 			                </a>
 
-							<a href="https://medium.com/tagvote" class="item">
+							<a href="https://medium.com/votepen" class="item">
 			                    Blog
 			                </a>
 
@@ -147,11 +147,11 @@
 			                    Credits
 			                </a>
 
-			                <a href="https://github.com/tagvote/tagvote" class="item" target="_blank">
+			                <a href="https://github.com/votepen/votepen" class="item" target="_blank">
 			                    Source Code
 			                </a>
 
-							<a href="https://join.slack.com/t/tagvote/shared_invite/enQtMjc0OTE3NDI2OTE2LTcyMDk2Nzc0OTI5MjIzNjBjNWRlMDlmMmY3ZWIyMzkyNmE1NmI3MDdiN2Q4OGQ1N2FkYWQ4ZjVkYTA1ZjY3YTI" class="item" target="_blank">
+							<a href="https://join.slack.com/t/votepen/shared_invite/enQtMjc0OTE3NDI2OTE2LTcyMDk2Nzc0OTI5MjIzNjBjNWRlMDlmMmY3ZWIyMzkyNmE1NmI3MDdiN2Q4OGQ1N2FkYWQ4ZjVkYTA1ZjY3YTI" class="item" target="_blank">
 			                    Slack
 			                </a>
 						</div>
