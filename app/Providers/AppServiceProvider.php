@@ -18,7 +18,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         \Horizon::auth(function ($request) {
-            return $this->mustBeVotenAdministrator();
+            return $this->mustBeVotepenAdministrator();
         });
     }
 

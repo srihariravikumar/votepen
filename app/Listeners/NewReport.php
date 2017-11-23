@@ -35,7 +35,7 @@ class NewReport
             }
         }
 
-        $this->notifyVotenAdmins($event->report);
+        $this->notifyVotepenAdmins($event->report);
     }
 
     /**
@@ -45,9 +45,9 @@ class NewReport
      *
      * @return void
      */
-    protected function notifyVotenAdmins($report)
+    protected function notifyVotepenAdmins($report)
     {
-        $admins_ids = $this->getVotenAdministrators();
+        $admins_ids = $this->getVotepenAdministrators();
 
         $admins = User::whereIn('id', $admins_ids)->get();
 

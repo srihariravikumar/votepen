@@ -4,7 +4,7 @@
             <tr>
                 <td class="content-cell" align="center">
                     <p style="box-sizing: border-box; line-height: 1.5em; margin-top: 0; color: #AEAEAE; font-size: 12px; text-align: center;">
-                        © 2017 <a href="{{ config('app.url') }}" target="_blank">Tagvote</a>. All rights reserved.
+                        © 2017 <a href="{{ config('app.url') }}" target="_blank">Votepen</a>. All rights reserved.
                     </p>
                 </td>
             </tr>

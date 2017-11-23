@@ -17,7 +17,7 @@ class BlockDomainController extends Controller
      * Stores a BlockedDomain record.
      *
      * Hint: since general bann happens from through backend form (and not via ajax) we check for it.
-     * If it isn't via ajax, it means it's been from backend and done by a TagvoteAdministrator.
+     * If it isn't via ajax, it means it's been from backend and done by a VotepenAdministrator.
      *
      * @param \Illuminate\Http\Request $request
      *
@@ -30,7 +30,7 @@ class BlockDomainController extends Controller
             'category' => 'alpha_num|max:25',
         ]);
 
-        if (!($blockEverywhere = !$request->ajax() && $this->mustBeVotenAdministrator())) {
+        if (!($blockEverywhere = !$request->ajax() && $this->mustBeVotepenAdministrator())) {
             $category = Category::where('name', $request->category)->firstOrFail();
             abort_unless($this->mustBeModerator($category->id), 403);
         }
@@ -77,7 +77,7 @@ class BlockDomainController extends Controller
             'category' => 'required|alpha_num|min:3|max:50',
         ]);
 
-        if (!($blockEverywhere = !$request->ajax() && $this->mustBeVotenAdministrator())) {
+        if (!($blockEverywhere = !$request->ajax() && $this->mustBeVotepenAdministrator())) {
             $category = Category::where('name', $request->category)->firstOrFail();
             abort_unless($this->mustBeModerator($category->id), 403);
         }

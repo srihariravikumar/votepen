@@ -2,7 +2,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| Tagvote Helpers
+| Votepen Helpers
 |--------------------------------------------------------------------------
 |
 | This file contains our general helper functions that can be accessed from

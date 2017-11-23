@@ -167,7 +167,7 @@ class UserController extends Controller
     {
         if (!$request->ajax()) {
             // request sent from backend panel
-            abort_unless($this->mustBeVotenAdministrator(), 403);
+            abort_unless($this->mustBeVotepenAdministrator(), 403);
 
             $user = User::findOrFail($request->user_id);
         } else {

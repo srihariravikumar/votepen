@@ -331,13 +331,13 @@ class CategoryController extends Controller
     }
 
     /**
-     * Destroys the category model and all its related models. Currently only Tagvote administrators have such permission.
+     * Destroys the category model and all its related models. Currently only Votepen administrators have such permission.
      *
      * @param Category $category
      */
     public function destroy(Category $category)
     {
-        abort_unless($this->mustBeVotenAdministrator(), 403);
+        abort_unless($this->mustBeVotepenAdministrator(), 403);
 
         if (!confirmPassword(request('password'))) {
             session()->flash('warning', "Incorrect Password. What kind of an administrator doesn't remember his password? ");

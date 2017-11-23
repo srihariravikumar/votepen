@@ -286,13 +286,13 @@ class User extends Authenticatable
     }
 
     /**
-     * Whether or not the auth user is a Tagvote administrator.
+     * Whether or not the auth user is a Votepen administrator.
      *
      * @return bool
      */
-    public function isVotenAdministrator()
+    public function isVotepenAdministrator()
     {
-        $users = Cache::remember('general.voten-administrators', 60 * 60 * 12, function () {
+        $users = Cache::remember('general.Votepen-administrators', 60 * 60 * 12, function () {
             $users = AppointeddUser::where('appointed_as', 'administrator')->pluck('user_id');
         });
 

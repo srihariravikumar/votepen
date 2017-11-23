@@ -169,7 +169,7 @@
 			<a href="https://votepen.com/tos">Terms Of Service</a>
 			<a href="https://medium.com/votepen">Blog</a>
 			<a href="https://twitter.com/votepen">Twitter</a>
-			<a href="https://facebook.com/tagvote.com">Facebook</a>
+			<a href="https://facebook.com/votepen.com">Facebook</a>
 		</div>
 	</div>
 </body>

@@ -85,7 +85,7 @@
                 </a>
 
                 <a href="https://reddit.com/r/votepen">
-                    /r/tagvote
+                    /r/votepen
                 </a>
             </div>
         </div>

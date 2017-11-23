@@ -96,7 +96,7 @@ class SuggestionController extends Controller
             'z_index'       => 'required|integer',
         ]);
 
-        abort_unless($this->mustBeVotenAdministrator(), 403);
+        abort_unless($this->mustBeVotepenAdministrator(), 403);
 
         $category = $this->getCategoryByName($request->category_name);
 
@@ -120,7 +120,7 @@ class SuggestionController extends Controller
      */
     public function adminIndex()
     {
-        abort_unless($this->mustBeVotenAdministrator(), 403);
+        abort_unless($this->mustBeVotepenAdministrator(), 403);
 
         return Suggested::all();
     }
@@ -136,7 +136,7 @@ class SuggestionController extends Controller
             'id' => 'required|integer',
         ]);
 
-        abort_unless($this->mustBeVotenAdministrator(), 403);
+        abort_unless($this->mustBeVotepenAdministrator(), 403);
 
         Suggested::findOrFail($request->id)->delete();
 

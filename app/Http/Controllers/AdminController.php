@@ -20,13 +20,13 @@ class AdminController extends Controller
     }
 
     /**
-     * Is the authinticated user a Tagvote administrator?
+     * Is the authinticated user a Votepen administrator?
      *
      * @return string
      */
     public function isAdministrator()
     {
-        return $this->mustBeVotenAdministrator() ? 'true' : 'false';
+        return $this->mustBeVotepenAdministrator() ? 'true' : 'false';
     }
 
     /**

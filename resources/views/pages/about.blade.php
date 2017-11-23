@@ -13,10 +13,10 @@
 	<meta name="twitter:title" content="About | Votepen" />
 
 	<meta name="description" content="We are a small team of developers risen from the world of open-source. We believe in an open and modern Internet. Votepen's mission is to give people the power to share their content with not just their friends but the world and interact in real-time."/>
-	<meta property="og:description" content="We are a small team of developers risen from the world of open-source. We believe in an open and modern Internet. Tagvote's mission is to give people the power to share their content with not just their friends but the world and interact in real-time." />
-	<meta name="twitter:description" content="We are a small team of developers risen from the world of open-source. We believe in an open and modern Internet. Tagvote's mission is to give people the power to share their content with not just their friends but the world and interact in real-time." />
-	<meta property="og:image" content="{{ config('app.url') }}/imgs/tagvote.svg">
-	<meta name="twitter:image" content="{{ config('app.url') }}/imgs/tagvote.svg" />
+	<meta property="og:description" content="We are a small team of developers risen from the world of open-source. We believe in an open and modern Internet. Votepen's mission is to give people the power to share their content with not just their friends but the world and interact in real-time." />
+	<meta name="twitter:description" content="We are a small team of developers risen from the world of open-source. We believe in an open and modern Internet. Votepen's mission is to give people the power to share their content with not just their friends but the world and interact in real-time." />
+	<meta property="og:image" content="{{ config('app.url') }}/imgs/votepen.svg">
+	<meta name="twitter:image" content="{{ config('app.url') }}/imgs/votepen.svg" />
 
 	<script type="application/ld+json">
 	 {

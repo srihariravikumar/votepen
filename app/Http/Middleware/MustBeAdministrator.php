@@ -19,7 +19,7 @@ class MustBeAdministrator
      */
     public function handle($request, Closure $next)
     {
-        abort_unless($this->mustBeVotenAdministrator(), 403);
+        abort_unless($this->mustBeVotepenAdministrator(), 403);
 
         return $next($request);
     }
