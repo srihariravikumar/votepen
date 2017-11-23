@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Tagvote.
+ * Votepen.
  *
  * @author   Yoginth <yoginth@aol.com>
  */

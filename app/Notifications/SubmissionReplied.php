@@ -59,7 +59,7 @@ class SubmissionReplied extends Notification implements ShouldBroadcast
                     ->title($this->comment->user->username.' replied:')
                     ->subject('Your submission "'.$this->submission->title.'" just got a new comment.')
                     ->line('"'.$this->comment->body.'"')
-                    ->action('Reply', 'https://tagvote.com/'.$this->submission->slug)
+                    ->action('Reply', 'https://votepen.com/'.$this->submission->slug)
                     ->line('Thank you for being a part of our alpha program!');
     }
 

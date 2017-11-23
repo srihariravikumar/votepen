@@ -86,6 +86,6 @@ return [
     |
     */
 
-    'prefix' => 'tagvote',
+    'prefix' => 'votepen',
 
 ];
