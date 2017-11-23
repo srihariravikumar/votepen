@@ -23,7 +23,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | The service used for broadcasting needs. While Pusher is recommented
-    | for development, Tagvote uses a custom echo service runned on our own
+    | for development, Votepen uses a custom echo service runned on our own
     | server. More info: "github.com/tlaverdure/laravel-echo-server"
     |
     | Supported: "pusher", "echo"

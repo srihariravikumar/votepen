@@ -56,8 +56,8 @@ return [
     */
 
     'from' => [
-        'address' => 'cheflabs@hotmail.com',
-        'name'    => 'Tagvote Team',
+        'address' => 'we@votepen.com',
+        'name'    => 'Votepen Team',
     ],
 
     /*
