@@ -20,7 +20,7 @@ class Firewall
     public function handle($request, Closure $next)
     {
         if ($this->isIpAddressBanned()) {
-            return response('Sadly your IP address has been banned from accessing Tagvote. If you believe this has been done by mistake, please contact support@tagvote.com.', 403);
+            return response('Sadly your IP address has been banned from accessing Votepen. If you believe this has been done by mistake, please contact support@votepen.com.', 403);
         }
 
         return $next($request);
