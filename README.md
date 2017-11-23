@@ -1,8 +1,8 @@
 # Tagvote
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/854350c061bc49d9b6f0bb90f99018f4)](https://www.codacy.com/app/Tagvote/tagvote?utm_source=github.com&utm_medium=referral&utm_content=tagvote/tagvote&utm_campaign=badger)
-[![StyleCI](https://styleci.io/repos/111306356/shield?branch=master)](https://styleci.io/repos/111306356)
-[![Build Status](https://semaphoreci.com/api/v1/yoginth/tagvote/branches/master/shields_badge.svg)](https://semaphoreci.com/yoginth/tagvote)
+[![StyleCI](https://styleci.io/repos/111765544/shield?branch=master)](https://styleci.io/repos/111765544)
+[![Build Status](https://semaphoreci.com/api/v1/yoginth/votepen/branches/master/shields_badge.svg)](https://semaphoreci.com/yoginth/votepen)
 
 Tagvote is a real-time social bookmark platform. It's real-time, beautiful, customizable yet simple. To get a quick taste of what Tagvote is written with please check our [credits page](https://tagvote.com/credits).
 
