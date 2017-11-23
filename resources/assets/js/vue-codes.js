@@ -52,7 +52,7 @@ Vue.use(VueLocalStorage, localStorageConfig);
 
 
 /**
- * The very serious and important vue instance!!! This is what gives power to Tagvote's
+ * The very serious and important vue instance!!! This is what gives power to Votepen's
  * front-end. Try to love it, maintain it, appriciate it and maybe even more! This
  * also plays a role in switching states and maintaining the Store.
  */
@@ -640,4 +640,4 @@ const app = new Vue({
 			}
         },
     },
-}).$mount('#tagvote-app');
+}).$mount('#votepen-app');

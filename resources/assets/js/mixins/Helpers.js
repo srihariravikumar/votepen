@@ -52,7 +52,7 @@ export default {
     			return;
     		}
 
-    	    document.title = title + ' - Tagvote';
+    	    document.title = title + ' - Votepen';
     	},
 
     	/**

@@ -164,7 +164,7 @@ var router = new VueRouter({
 /**
  * Fills the <title> tag with the right value before navigating to the
  * new route.First it checks the title in the meta, if it exists it
- * sets it to that, otherwise sets it to the default (Tagvote).
+ * sets it to that, otherwise sets it to the default (Votepen).
  */
 router.beforeEach((to, from, next) => {
     if (to.meta.title) {
@@ -177,7 +177,7 @@ router.beforeEach((to, from, next) => {
 	    		to.name != "user-submissions" &&
 	    		to.name != "user-comments"
     		) {
-    		document.title = 'Tagvote'
+    		document.title = 'Votepen'
     	}
     }
 
