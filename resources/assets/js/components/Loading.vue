@@ -1,11 +1,6 @@
 <template>
 	<div class="fond">
-		<div class="contener_general">
-			<div class="contener_mixte"><div class="ballcolor ball_1">&nbsp;</div></div>
-			<div class="contener_mixte"><div class="ballcolor ball_2">&nbsp;</div></div>
-			<div class="contener_mixte"><div class="ballcolor ball_3">&nbsp;</div></div>
-			<div class="contener_mixte"><div class="ballcolor ball_4">&nbsp;</div></div>
-		</div>
+		<img src="/loader.gif" style="width:80px">
 	</div>
 </template>
 
@@ -19,15 +14,6 @@
 		-moz-user-select: none;
 		-ms-user-select: none;
 		user-select: none;
-	}
-
-	.contener_general
-	{
-	    -webkit-animation:animball_two 1s infinite;
-	  	-moz-animation:animball_two 1s infinite;
-	  	-ms-animation:animball_two 1s infinite;
-	  	animation:animball_two 1s infinite;
-	  	width:44px; height:44px;
 	}
 	.contener_mixte
 	{
