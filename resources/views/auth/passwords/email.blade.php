@@ -1,7 +1,7 @@
 @extends('layouts.landing-layout')
 
 @section('title')
-	<title>Forgot my password | Tagvote</title>
+	<title>Forgot my password | Votepen</title>
 @stop
 
 @section('content')

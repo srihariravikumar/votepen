@@ -1,7 +1,7 @@
 @extends('layouts.landing-layout')
 
 @section('title')
-	<title>Sign up | Tagvote</title>
+	<title>Sign up | Votepen</title>
 @stop
 
 @section('content')
@@ -23,7 +23,7 @@
 			<h1 class="title">Sign up with/without email address</h1>
 
 			<p>
-				We're glad you decided to join Tagvote. Now let's pick you a nice username that is easy to remember:
+				We're glad you decided to join Votepen. Now let's pick you a nice username that is easy to remember:
 			</p>
 
 			<form action="{{ url('/register') }}" method="POST" class="align-left">

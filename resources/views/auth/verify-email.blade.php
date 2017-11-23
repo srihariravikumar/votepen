@@ -1,7 +1,7 @@
 @extends('layouts.landing-layout')
 
 @section('title')
-    <title>Email Verified | Tagvote</title>
+    <title>Email Verified | Votepen</title>
 @stop
 
 @section('content')
