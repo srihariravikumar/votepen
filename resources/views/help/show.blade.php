@@ -2,15 +2,15 @@
 
 
 @section('head')
-    <title>{{ $help->title }} - Tagvote</title>
+    <title>{{ $help->title }} - Votepen</title>
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="{{ $help->title }} - Tagvote" />
+    <meta property="og:title" content="{{ $help->title }} - Votepen" />
     <meta property="og:url" content="{{ config('app.url') }}/help/{{ $help->id }}" />
-    <meta property="og:site_name" content="Tagvote" />
+    <meta property="og:site_name" content="Votepen" />
 
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@tagvote" />
-    <meta name="twitter:title" content="{{ $help->title }} - Tagvote" />
+    <meta name="twitter:site" content="@votepen" />
+    <meta name="twitter:title" content="{{ $help->title }} - Votepen" />
 
     <meta name="description" content="{{ $help->body }}"/>
     <meta property="og:description" content="{{ $help->body }}" />

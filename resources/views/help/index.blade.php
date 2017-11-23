@@ -2,21 +2,21 @@
 
 
 @section('head')
-    <title>Help Center - Tagvote</title>
+    <title>Help Center - Votepen</title>
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="Help Center - Tagvote" />
+    <meta property="og:title" content="Help Center - Votepen" />
     <meta property="og:url" content="{{ config('app.url') }}/help" />
-    <meta property="og:site_name" content="Tagvote" />
+    <meta property="og:site_name" content="Votepen" />
 
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@tagvote" />
-    <meta name="twitter:title" content="Help Center - Tagvote" />
+    <meta name="twitter:site" content="@votepen" />
+    <meta name="twitter:title" content="Help Center - Votepen" />
 
-    <meta name="description" content="Get instant answers for the most common questions and learn how to take the most out of Tagvote."/>
-    <meta property="og:description" content="Get instant answers for the most common questions and learn how to take the most out of Tagvote." />
-    <meta name="twitter:description" content="Get instant answers for the most common questions and learn how to take the most out of Tagvote." />
-    <meta property="og:image" content="/imgs/tagvote.svg">
-    <meta name="twitter:image" content="/imgs/tagvote.svg" />
+    <meta name="description" content="Get instant answers for the most common questions and learn how to take the most out of Votepen."/>
+    <meta property="og:description" content="Get instant answers for the most common questions and learn how to take the most out of Votepen." />
+    <meta name="twitter:description" content="Get instant answers for the most common questions and learn how to take the most out of Votepen." />
+    <meta property="og:image" content="/imgs/votepen.svg">
+    <meta name="twitter:image" content="/imgs/votepen.svg" />
 @stop
 
 

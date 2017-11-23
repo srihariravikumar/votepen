@@ -63,7 +63,7 @@
 <div class="container">
     <div class="content">
         <a href="/">
-            <img src="/imgs/tagvote.svg" alt="tagvote" class="logo">
+            <img src="/imgs/votepen.svg" alt="votepen" class="logo">
         </a>
 
         <div class="title">
@@ -72,20 +72,20 @@
     </div>
 
     <div class="footer">
-        <a href="https://twitter.com/tagvote">
+        <a href="https://twitter.com/votepen">
             Twitter
         </a>
 
-        <a href="https://facebook.com/tagvote">
+        <a href="https://facebook.com/votepen">
             Facebook
         </a>
 
-        <a href="https://medium.com/tagvote">
+        <a href="https://medium.com/votepen">
             Blog
         </a>
 
-        <a href="https://reddit.com/r/tagvote">
-            /r/tagvote
+        <a href="https://reddit.com/r/votepen">
+            /r/votepen
         </a>
     </div>
 </div>

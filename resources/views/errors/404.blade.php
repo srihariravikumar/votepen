@@ -1,20 +1,20 @@
 @extends('layouts.landing-layout')
 
 @section('head')
-	<title>Not Found 404 - Tagvote</title>
+	<title>Not Found 404 - Votepen</title>
 	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Not Found 404 - Tagvote" />
-	<meta property="og:site_name" content="Tagvote" />
+	<meta property="og:title" content="Not Found 404 - Votepen" />
+	<meta property="og:site_name" content="Votepen" />
 
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:site" content="@tagvote" />
-	<meta name="twitter:title" content="Not Found 404 - Tagvote" />
+	<meta name="twitter:site" content="@votepen" />
+	<meta name="twitter:title" content="Not Found 404 - Votepen" />
 
 	<meta name="description" content="Sorry, that page doesn’t exist!"/>
 	<meta property="og:description" content="Sorry, that page doesn’t exist!" />
 	<meta name="twitter:description" content="Sorry, that page doesn’t exist!" />
-	<meta property="og:image" content="/imgs/tagvote.svg" />
-	<meta name="twitter:image" content="/imgs/tagvote.svg" />
+	<meta property="og:image" content="/imgs/votepen.svg" />
+	<meta name="twitter:image" content="/imgs/votepen.svg" />
 @stop
 
 
