@@ -75,12 +75,7 @@ Votepen's mission is to give people the power to share their content with not ju
 		<p>
 			Thanks to the power of open-source community, Votepen has become the most modern social bookmarking platform on the Internet. It's been developed from scratch to work with latest web technologies such as WebSockets. Voters have full control over their browsing experience. Votepen's UI is highly customizable yet deadly simple.
 		</p>
-
 		<br>
-		<h2 class="title">An open-source project</h2>
-		<p>
-			 It gets even better: Votepen is 100% <a href="https://github.com/votepen/votepen" target="_blank">open-source!</a> Yes, we've got nothing to hide. We also like the idea of giving back something to the open-source community. We also have awesome developer users who directly contribute in Votepen's development.
-		</p>
 	</div>
 
 
