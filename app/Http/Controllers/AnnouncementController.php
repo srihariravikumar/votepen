@@ -25,7 +25,7 @@ class AnnouncementController extends Controller
      */
     public function show()
     {
-        abort_unless($this->mustBeVotenAdministrator(), 403);
+        abort_unless($this->mustBeVotepenAdministrator(), 403);
 
         $announcements = Announcement::where([
             ['category_name', 'home'],
@@ -50,7 +50,7 @@ class AnnouncementController extends Controller
 
         if ($request->category_name == 'home' && !$request->ajax()) {
             // only a Votepen administrator is able to make an announcement to everyone's home-feed
-            abort_unless($this->mustBeVotenAdministrator(), 403);
+            abort_unless($this->mustBeVotepenAdministrator(), 403);
         } else {
             $category = $this->getCategoryByName($request->category);
             abort_unless($this->mustBeAdministrator($category->id), 403);
@@ -124,7 +124,7 @@ class AnnouncementController extends Controller
     public function destroy(Announcement $announcement, Request $request)
     {
         if ($announcement->category_name == 'home') {
-            abort_unless($this->mustBeVotenAdministrator(), 403);
+            abort_unless($this->mustBeVotepenAdministrator(), 403);
         } else {
             $category = $this->getCategoryByName($announcement->category_name);
             abort_unless($this->mustBeAdministrator($category->id), 403);

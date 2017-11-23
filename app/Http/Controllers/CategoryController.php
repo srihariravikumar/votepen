@@ -337,7 +337,7 @@ class CategoryController extends Controller
      */
     public function destroy(Category $category)
     {
-        abort_unless($this->mustBeVotenAdministrator(), 403);
+        abort_unless($this->mustBeVotepenAdministrator(), 403);
 
         if (!confirmPassword(request('password'))) {
             session()->flash('warning', "Incorrect Password. What kind of an administrator doesn't remember his password? ");

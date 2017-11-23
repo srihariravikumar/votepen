@@ -16,7 +16,7 @@ trait Permissions
      *
      * @return bool
      */
-    protected function mustBeVotenAdministrator($user_id = 0)
+    protected function mustBeVotepenAdministrator($user_id = 0)
     {
         if (!Auth::check()) {
             return false;
@@ -26,13 +26,13 @@ trait Permissions
             $user_id = Auth::id();
         }
 
-        $users = $this->getVotenAdministrators();
+        $users = $this->getVotepenAdministrators();
 
         return $users->contains($user_id);
     }
 
     /**
-     * Is Auth user a Voten official administrator.
+     * Is Auth user a Votepen official administrator.
      *
      * @return bool
      */
@@ -40,7 +40,7 @@ trait Permissions
     {
         $users = $this->getWhitelistedUsers();
 
-        return $users->contains(Auth::id()) || $this->mustBeVotenAdministrator();
+        return $users->contains(Auth::id()) || $this->mustBeVotepenAdministrator();
     }
 
     /**
@@ -56,7 +56,7 @@ trait Permissions
             return Auth::user()->roles()->where('category_id', $category)->pluck('role')->contains('administrator');
         }
 
-        return $this->mustBeVotenAdministrator() || Auth::user()->roles()->where('category_id', $category)->pluck('role')->contains('administrator');
+        return $this->mustBeVotepenAdministrator() || Auth::user()->roles()->where('category_id', $category)->pluck('role')->contains('administrator');
     }
 
     /**
@@ -70,7 +70,7 @@ trait Permissions
     {
         $roles = Auth::user()->roles()->where('category_id', $category)->pluck('role');
 
-        return $this->mustBeVotenAdministrator() || $roles->contains('moderator') || $roles->contains('administrator');
+        return $this->mustBeVotepenAdministrator() || $roles->contains('moderator') || $roles->contains('administrator');
     }
 
     /**
@@ -120,7 +120,7 @@ trait Permissions
 
     /**
      * Is the domain of the submitted $url blocked in $category or everwhere(specified
-     * by voten-administrators).
+     * by Votepen-administrators).
      *
      * @param string $url
      * @param string $category
@@ -181,9 +181,9 @@ trait Permissions
     /* ------------------------------- Getters ----------------------------- */
     /* --------------------------------------------------------------------- */
 
-    protected function getVotenAdministrators()
+    protected function getVotepenAdministrators()
     {
-        return Cache::rememberForever('general.voten-administrators', function () {
+        return Cache::rememberForever('general.Votepen-administrators', function () {
             return AppointeddUser::where('appointed_as', 'administrator')->pluck('user_id');
         });
     }

@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Mail\VerifyEmailAddress;
-use App\Mail\WelcomeToVoten;
+use App\Mail\WelcomeToVotepen;
 use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -36,9 +36,9 @@ class VerificationController extends Controller
 
             $user->update(['confirmed' => 1]);
 
-            // In case user has changed his email address (and already recieved "WelcomeToVotepen" before), there's no need to send "WelcomeToVoten" again.
+            // In case user has changed his email address (and already recieved "WelcomeToVotepen" before), there's no need to send "WelcomeToVotepen" again.
             if (DB::table('email_verifications')->where(['user_id' => $user->id])->count() === 1) {
-                \Mail::to($user->email)->queue(new WelcomeToVoten($user->username));
+                \Mail::to($user->email)->queue(new WelcomeToVotepen($user->username));
             }
         }
 

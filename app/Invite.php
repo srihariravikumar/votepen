@@ -22,7 +22,7 @@ class Invite extends Model
      */
     public function send()
     {
-        \Mail::to($this->email)->queue(new \App\Mail\InvitedToVoten($this->email, $this->invitation));
+        \Mail::to($this->email)->queue(new \App\Mail\InvitedToVotepen($this->email, $this->invitation));
 
         $this->update([
             'sent' => true,

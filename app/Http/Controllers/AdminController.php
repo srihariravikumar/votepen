@@ -26,7 +26,7 @@ class AdminController extends Controller
      */
     public function isAdministrator()
     {
-        return $this->mustBeVotenAdministrator() ? 'true' : 'false';
+        return $this->mustBeVotepenAdministrator() ? 'true' : 'false';
     }
 
     /**

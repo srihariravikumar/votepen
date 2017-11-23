@@ -30,7 +30,7 @@ class BlockDomainController extends Controller
             'category' => 'alpha_num|max:25',
         ]);
 
-        if (!($blockEverywhere = !$request->ajax() && $this->mustBeVotenAdministrator())) {
+        if (!($blockEverywhere = !$request->ajax() && $this->mustBeVotepenAdministrator())) {
             $category = Category::where('name', $request->category)->firstOrFail();
             abort_unless($this->mustBeModerator($category->id), 403);
         }
@@ -77,7 +77,7 @@ class BlockDomainController extends Controller
             'category' => 'required|alpha_num|min:3|max:50',
         ]);
 
-        if (!($blockEverywhere = !$request->ajax() && $this->mustBeVotenAdministrator())) {
+        if (!($blockEverywhere = !$request->ajax() && $this->mustBeVotepenAdministrator())) {
             $category = Category::where('name', $request->category)->firstOrFail();
             abort_unless($this->mustBeModerator($category->id), 403);
         }

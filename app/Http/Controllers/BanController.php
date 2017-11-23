@@ -35,7 +35,7 @@ class BanController extends Controller
 
         // make sure only Votepen-administrators are able to ban users everywhere
         if ($request->category == 'all') {
-            abort_unless($this->mustBeVotenAdministrator() && $request->username != Auth::user()->username, 403);
+            abort_unless($this->mustBeVotepenAdministrator() && $request->username != Auth::user()->username, 403);
 
             // remove all user's data that might have been spam and harmful to others
             DB::table('submissions')->where('user_id', $user->id)->delete();
@@ -96,9 +96,9 @@ class BanController extends Controller
             $category = Category::where('name', $request->category)->firstOrFail();
         }
 
-        // make sure only voten-administrators are able to ban users everywhere
+        // make sure only Votepen-administrators are able to ban users everywhere
         if ($request->category == 'all') {
-            abort_unless($this->mustBeVotenAdministrator(), 403);
+            abort_unless($this->mustBeVotepenAdministrator(), 403);
         } else {
             abort_unless($this->mustBeModerator($category->id), 403);
         }
@@ -128,9 +128,9 @@ class BanController extends Controller
             $category = Category::where('name', $request->category)->firstOrFail();
         }
 
-        // make sure only voten-administrators are able to ban users everywhere
+        // make sure only Votepen-administrators are able to ban users everywhere
         if ($request->category == 'all') {
-            abort_unless($this->mustBeVotenAdministrator(), 403);
+            abort_unless($this->mustBeVotepenAdministrator(), 403);
         } else {
             abort_unless($this->mustBeModerator($category->id), 403);
         }

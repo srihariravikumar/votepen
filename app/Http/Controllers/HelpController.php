@@ -85,7 +85,7 @@ class HelpController extends Controller
      */
     public function indexAll(Request $request)
     {
-        abort_unless($this->mustBeVotenAdministrator(), 403);
+        abort_unless($this->mustBeVotepenAdministrator(), 403);
 
         return Help::all();
     }
@@ -116,7 +116,7 @@ class HelpController extends Controller
             'body'  => 'required',
         ]);
 
-        abort_unless($this->mustBeVotenAdministrator(), 403);
+        abort_unless($this->mustBeVotepenAdministrator(), 403);
 
         $help = new Help([
             'title' => $request->title,
@@ -143,7 +143,7 @@ class HelpController extends Controller
             'body'  => 'required',
         ]);
 
-        abort_unless($this->mustBeVotenAdministrator(), 403);
+        abort_unless($this->mustBeVotepenAdministrator(), 403);
 
         $help = Help::findOrFail($request->id);
 
@@ -164,7 +164,7 @@ class HelpController extends Controller
      */
     public function destroy(Request $request)
     {
-        abort_unless($this->mustBeVotenAdministrator(), 403);
+        abort_unless($this->mustBeVotepenAdministrator(), 403);
 
         Help::find($request->id)->forceDelete();
 
