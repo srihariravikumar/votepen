@@ -36,7 +36,7 @@ class VerificationController extends Controller
 
             $user->update(['confirmed' => 1]);
 
-            // In case user has changed his email address (and already recieved "WelcomeToTagvote" before), there's no need to send "WelcomeToVoten" again.
+            // In case user has changed his email address (and already recieved "WelcomeToVotepen" before), there's no need to send "WelcomeToVoten" again.
             if (DB::table('email_verifications')->where(['user_id' => $user->id])->count() === 1) {
                 \Mail::to($user->email)->queue(new WelcomeToVoten($user->username));
             }
