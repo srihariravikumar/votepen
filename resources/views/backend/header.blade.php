@@ -1,7 +1,7 @@
 <nav class="nav has-shadow">
     <div class="container">
         <a href="/" class="backend-logo">
-            <img src="/imgs/tagvote.svg" alt="Tagvote">
+            <img src="/imgs/votepen.svg" alt="Votepen">
         </a>
 
         <div class="nav-right">

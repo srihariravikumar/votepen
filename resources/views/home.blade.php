@@ -96,7 +96,7 @@
 		  "@type":"SiteNavigationElement",
 		  "position":7,
 		  "name": "#politics",
-		  "url":"https://tagvote.com/c/politics"
+		  "url":"https://votepen.com/c/politics"
 		}
 	  ]
 	}
