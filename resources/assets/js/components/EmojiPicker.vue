@@ -18,13 +18,13 @@
                 </div>
 
                 <img v-for="e in filteredHistory" class="emojione" :alt="e.code_decimal" :title="e.shortname" @click="pick(e)"
-                :src="'https://cdn.jsdelivr.net/emojione/assets/png/' + e.unicode + '.png?v=2.2.7'">
+                :src="'https://cdn.jsdelivr.net/emojione/assets/png/' + e.unicode + '.png?v=3.1.2'">
             </div>
 
             <hr v-show="filteredHistory.length">
 
             <img v-for="emoji in filteredEmojiList" class="emojione" :alt="emoji.code_decimal" :title="emoji.shortname" @click="pick(emoji)"
-            :src="'https://cdn.jsdelivr.net/emojione/assets/png/' + emoji.unicode + '.png?v=2.2.7'">
+            :src="'https://cdn.jsdelivr.net/emojione/assets/png/' + emoji.unicode + '.png?v=3.1.2'">
         </div>
     </div>
 </template>
