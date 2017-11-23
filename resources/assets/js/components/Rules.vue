@@ -3,7 +3,7 @@
         <div class="v-modal-small-box" v-on-clickaway="close">
             <div class="flex1">
                 <p>
-                    Just like any other channel on Tagvote, all submissions must follow Tagvote's
+                    Just like any other channel on Votepen, all submissions must follow Votepen's
                     <a href="/tos">
                     	<b>general rules</b>
                     </a>.

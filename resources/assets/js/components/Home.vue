@@ -78,7 +78,7 @@
 	    },
 
         created() {
-            this.setPageTitle('Tagvote - Stay Updated', true);
+            this.setPageTitle('Votepen - Stay Updated', true);
             this.askNotificationPermission();
         },
 
@@ -136,7 +136,7 @@
         	},
 
         	/**
-        	 * In case the user has just joined to the Tagvote community let's ask them for the awesome Desktop notifications permission.
+        	 * In case the user has just joined to the Votepen community let's ask them for the awesome Desktop notifications permission.
         	 *
         	 * @return void
         	 */

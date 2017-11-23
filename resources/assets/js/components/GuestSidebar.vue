@@ -2,7 +2,7 @@
     <div class="side-fixed"  id="v-sidebar">
         <div class="sidebar-offer-wrapper">
         	<h3>
-        		New to Tagvote?
+        		New to Votepen?
         	</h3>
 
         	<p>
@@ -51,11 +51,11 @@
         <hr>
 
         <ul class="sidebar-copyright">
-        	<li>&copy; 2017 Tagvote</li>
+        	<li>&copy; 2017 Votepen</li>
         	<li><a href="/about">About</a></li>
         	<li><router-link to="/help">Help Center</router-link></li>
         	<li><a href="/tos">Terms</a></li>
-        	<li><a href="https://medium.com/tagvote" target="_blank">Blog</a></li>
+        	<li><a href="https://medium.com/votepen" target="_blank">Blog</a></li>
         	<li><a href="/privacy-policy">Privacy Policy</a></li>
         	<li><a href="/credits">Credits</a></li>
         	<li><a href="mailto:press@tagvote.com">Press</a></li>

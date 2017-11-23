@@ -6,7 +6,7 @@
 
 		<div class="margin-top-bottom-1 align-center" v-if="isNewbie">
 			<h2>
-				Welcome to Tagvote, {{ auth.username }}
+				Welcome to Votepen, {{ auth.username }}
 			</h2>
 
 			<h1 v-if="isNewbie && !reachedMinimum">
