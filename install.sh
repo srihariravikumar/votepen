@@ -19,7 +19,3 @@ sudo apt-get install php7.1-mbstring
 sudo apt-get install php7.1-xml
 sudo apt-get install php7.1-curl
 sudo apt-get install composer
-
-nvm use 9.2.0
-npm run production
-php artisan serve
