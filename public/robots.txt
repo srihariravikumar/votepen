@@ -19,4 +19,4 @@ Allow: /
 User-agent: Googlebot-Mobile
 Allow: /
 
-Sitemap: https://tagvote.com/sitemap.xml
+Sitemap: https://votepen.com/sitemap.xml
