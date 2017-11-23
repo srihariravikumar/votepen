@@ -11,7 +11,7 @@
 	export default {
 	    data() {
 	        return {
-	            message: "I hate to be the one breaking it to you, but you've been given a wrong address!"
+	            message: "Whoops! Looks like you're lost."
 			}
 		},
 
