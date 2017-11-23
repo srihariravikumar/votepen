@@ -97,8 +97,6 @@
 			<div class="flex1">
 				<h3 class="go-red">Get to know Votepen </h3>
 				<ul>
-					<li><a href="mailto:support@votepen.com">Contact Us</a></li>
-					<li><a href="mailto:press@votepen.com">Press</a></li>
 					<li><a href="/credits">Credits</a></li>
 					<li><a href="/help">Help Center</a></li>
 				</ul>
