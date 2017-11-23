@@ -7,7 +7,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/tagvote/laravel-scout-elastic"
+            "url": "https://github.com/votepen/laravel-scout-elastic"
         }
     ],
     "require": {

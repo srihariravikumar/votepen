@@ -1,22 +1,22 @@
-# Tagvote
+# Votepen
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6bfa966e461a4817aec1c21cad778301)](https://www.codacy.com/app/Votepen/votepen?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=votepen/votepen&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://styleci.io/repos/111765544/shield?branch=master)](https://styleci.io/repos/111765544)
 [![Build Status](https://semaphoreci.com/api/v1/yoginth/votepen/branches/master/shields_badge.svg)](https://semaphoreci.com/yoginth/votepen)
 
-Tagvote is a real-time social bookmark platform. It's real-time, beautiful, customizable yet simple. To get a quick taste of what Tagvote is written with please check our [credits page](https://tagvote.com/credits).
+Votepen is a real-time social bookmark platform. It's real-time, beautiful, customizable yet simple. To get a quick taste of what Votepen is written with please check our [credits page](https://votepen.com/credits).
 
 ## Contributing
 
-Thank you for considering contributing to the Tagvote. To encourage active collaboration, Tagvote strongly encourages pull requests, not just bug reports. [Tagvote's Slack channel](https://join.slack.com/t/tagvote/shared_invite/enQtMjc0OTE3NDI2OTE2LTcyMDk2Nzc0OTI5MjIzNjBjNWRlMDlmMmY3ZWIyMzkyNmE1NmI3MDdiN2Q4OGQ1N2FkYWQ4ZjVkYTA1ZjY3YTI) is created for developers to discuss Tagvote development concerns. If you have an idea (and not the code for it) you may contact us either with the support@tagvote.com email address or submit it to [#tagvotedev](https://tagvote.com/c/TagvoteDev) channel.
+Thank you for considering contributing to the Votepen. To encourage active collaboration, Votepen strongly encourages pull requests, not just bug reports. [Votepen's Slack channel](https://join.slack.com/t/votepen/shared_invite/enQtMjc0OTE3NDI2OTE2LTcyMDk2Nzc0OTI5MjIzNjBjNWRlMDlmMmY3ZWIyMzkyNmE1NmI3MDdiN2Q4OGQ1N2FkYWQ4ZjVkYTA1ZjY3YTI) is created for developers to discuss Votepen development concerns. If you have an idea (and not the code for it) you may contact us either with the support@votepen.com email address or submit it to [#votependev](https://votepen.com/c/VotepenDev) channel.
 
 ## Coding Style
 
-Tagvote follows the PSR-2 coding standard and the PSR-4 autoloading standard. Tagvote also uses [StyleCI](https://styleci.io) for automatically merging any style fixes. So you don't have to worry about your code style much.
+Votepen follows the PSR-2 coding standard and the PSR-4 autoloading standard. Votepen also uses [StyleCI](https://styleci.io) for automatically merging any style fixes. So you don't have to worry about your code style much.
 
 ## Software Stack
 
-Tagvote is a Laravel application that runs on the following software:
+Votepen is a Laravel application that runs on the following software:
 
 - [Ubuntu 16.04+](https://ubuntu.com) (Use LTS)
 - [Apache 2.4+](https://httpd.apache.org)
@@ -63,8 +63,8 @@ After running the seeder, be sure to clear your redis cache, you should now be a
 
 ## Security Vulnerabilities
 
-If you discover any security vulnerability within Tagvote's source code, please send an e-mail to Yoginth at yoginth@aol.com instead of opening an issue. All security vulnerabilities will be promptly addressed.
+If you discover any security vulnerability within Votepen's source code, please send an e-mail to Yoginth at yoginth@aol.com instead of opening an issue. All security vulnerabilities will be promptly addressed.
 
 ## API
 
-A public API is the next step of Tagvote's development. In the meanwhile, if you're interested in developing applications on top of our API please contact us at support@tagvote.com.
+A public API is the next step of Votepen's development. In the meanwhile, if you're interested in developing applications on top of our API please contact us at support@votepen.com.
