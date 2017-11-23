@@ -56,7 +56,7 @@ class CommentReplied extends Notification implements ShouldBroadcast
                      ->title($this->comment->owner->username.' replied to your comment on "'.$this->submission->title.'":')
                      ->subject('Your comment on"'.$this->submission->title.'" just got a new reply.')
                      ->line('"'.$this->comment->body.'"')
-                     ->action('Reply', 'https://tagvote.com/'.$this->submission->slug)
+                     ->action('Reply', 'https://votepen.com/'.$this->submission->slug)
                      ->line('Thank you for being a part of our alpha program!');
     }
 
