@@ -40,7 +40,7 @@
            		<i class="v-icon v-home" aria-hidden="true" @click="homeRoute"></i>
             </router-link>
 
-			@if(optional(Auth::user())->isVotenAdministrator())
+			@if(optional(Auth::user())->isVotepenAdministrator())
 				<a href="/backend" class="btn-nth relative margin-right-half">
 					<i class="v-icon v-dashboard" aria-hidden="true"></i>
 				</a>
