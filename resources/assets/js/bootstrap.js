@@ -35,7 +35,7 @@ if (Laravel.env == 'local' && 'production') {
 }/* else {
 	window.Echo = new Echo({
 	    broadcaster: 'socket.io',
-	    host: 'https://echo.voten.co:6001',
+	    host: 'https://echo.tagvote.com:6001',
 	    auth:
 	    {
 	        headers:
