@@ -26,13 +26,19 @@ axios.interceptors.response.use(function (response) {
  */
 import Echo from "laravel-echo";
 
-if (Laravel.env == 'local' && 'production') {
+if (Laravel.env == 'local') {
 	window.Echo = new Echo({
 	    broadcaster: 'pusher',
 	    key: Laravel.pusherKey,
 	    cluster: Laravel.pusherCluster
 	});
-}/* else {
+} else if (Laravel.env == 'production') {
+  window.Echo = new Echo({
+      broadcaster: 'pusher',
+      key: 'c9d6b08bb9e2a77402e5',
+      cluster: 'eu'
+  });
+} else {
 	window.Echo = new Echo({
 	    broadcaster: 'socket.io',
 	    host: 'https://echo.tagvote.com:6001',
@@ -44,7 +50,7 @@ if (Laravel.env == 'local' && 'production') {
 	        }
 	    }
 	});
-} */
+}
 
 // The rest of (non-NPM) packages
 require('./libs/transition');
