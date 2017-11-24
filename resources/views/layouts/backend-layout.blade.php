@@ -11,7 +11,7 @@
     	@show
     </title>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.5/socket.io.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/votepen-cdn@2.0.0/js/socket.io.min.js"></script>
 
 
     @yield('head')
