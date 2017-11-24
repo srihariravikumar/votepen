@@ -67,9 +67,9 @@
 	                </router-link>
 
 					@if(optional(Auth::user())->isVotepenAdministrator())
-						<router-link :to="{ path: '/backend' }" class="item">
+						<a href="/backend" class="item">
 	                    	Admin
-	                	</router-link>
+	                	</a>
 					@endif
 					<router-link :to="{ path: '/subscribed-channels' }" class="item">
 	                    Subscribed Channels
