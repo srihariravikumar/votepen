@@ -17,8 +17,8 @@
                     </h4>
                 </div>
 
-                <img v-for="e in filteredHistory" class="emojione" :alt="e.code_decimal" :title="e.shortname" @click="pick(e)"
-                :src="'https://cdn.jsdelivr.net/emojione/assets/png/' + e.unicode + '.png?v=3.1.2'">
+            <img v-for="e in filteredHistory" class="emojione" :alt="e.code_decimal" :title="e.shortname" @click="pick(e)"
+            :src="'https://cdn.jsdelivr.net/emojione/assets/png/' + e.unicode + '.png?v=3.1.2'">
             </div>
 
             <hr v-show="filteredHistory.length">
