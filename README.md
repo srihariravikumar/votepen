@@ -1,8 +1,9 @@
 # Votepen
 
+[![Last Deployed](https://img.shields.io/github/last-commit/votepen/votepen/master.svg?label=last%20deployed)](https://github.com/votepen/votepen/commits)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6bfa966e461a4817aec1c21cad778301)](https://www.codacy.com/app/Votepen/votepen?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=votepen/votepen&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://styleci.io/repos/111765544/shield?branch=master)](https://styleci.io/repos/111765544)
-[![Build Status](https://semaphoreci.com/api/v1/yoginth/votepen/branches/master/shields_badge.svg)](https://semaphoreci.com/yoginth/votepen)
+[![Codeship Status for votepen/votepen](https://app.codeship.com/projects/fd61d920-b306-0135-e64c-725c6ee79220/status?branch=master)](https://app.codeship.com/projects/258173)
 
 Votepen is a real-time social bookmark platform. It's real-time, beautiful, customizable yet simple. To get a quick taste of what Votepen is written with please check our [credits page](https://votepen.com/credits).
 

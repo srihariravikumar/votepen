@@ -12,7 +12,6 @@ sudo apt-get install php-cli
 sudo apt-get install phpmyadmin
 sudo apt-get install -y python-software-properties
 sudo add-apt-repository -y ppa:ondrej/php
-
 sudo apt-get update -y
 sudo apt-get install php7.1
 sudo apt-get install php7.1-mbstring
